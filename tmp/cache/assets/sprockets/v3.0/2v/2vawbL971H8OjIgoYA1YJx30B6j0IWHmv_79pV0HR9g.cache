@@ -1,0 +1,42 @@
+I"F(function() {
+  $(document).ready(function() {
+    var footer_pos, top;
+    top = 500;
+    footer_pos = $(document).height() - 380;
+    window.onscroll = function() {
+      if ($(window).scrollTop() > top) {
+        $('#sidebar').addClass('fixNav');
+        $('#sidebar').css({
+          top: 0
+        });
+      }
+      if ($(window).scrollTop() < top) {
+        $('#sidebar').css({
+          top: 5
+        });
+        $('#sidebar').removeClass('fixNav');
+      }
+    };
+  });
+
+  $(document).on('page:load', function() {
+    window['rangy'].initialized = false;
+  });
+
+  $(document).on('turbolinks:load', function() {
+    $('[data-provider="summernote"]').each(function() {
+      return $(this).summernote({
+        fontNames: ['Lato', 'Work Sans', 'Laila'],
+        toolbar: [['style', ['style']], ['font', ['bold', 'italic', 'underline', 'clear']], ['fontname', ['fontname']], ['para', ['ul', 'ol', 'paragraph']], ['height', ['height']], ['insert', ['media', 'link', 'hr', 'video', 'picture']], ['view', ['fullscreen', 'codeview']]],
+        onpaste: function(e) {
+          var bufferText;
+          bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
+          e.preventDefault();
+          return document.execCommand('insertText', false, bufferText);
+        }
+      });
+    });
+  });
+
+}).call(this);
+:ET

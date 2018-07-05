@@ -1,0 +1,38 @@
+I"N(function() {
+  var ready;
+
+  ready = void 0;
+
+  ready = function() {
+    $('.like').on('ajax:send', function() {
+      $(this).addClass('loading');
+    }).on('ajax:complete', function() {
+      $(this).removeClass('loading');
+    }).on('ajax:error', function() {
+      $(this).after('<div class="error">There was an issue.</div>');
+    }).on('ajax:success', function(e, data, status, xhr) {
+      $(this).find('.heart').addClass('random');
+      $('#likes_' + data.id).html(data.count);
+    });
+    return $('.post-like').on('ajax:send', function() {
+      $(this).addClass('loading');
+    }).on('ajax:complete', function() {
+      $(this).removeClass('loading');
+    }).on('ajax:error', function() {
+      $(this).after('<div class="error">There was an issue.</div>');
+    }).on('ajax:success', function(e, data, status, xhr) {
+      $(this).find('.heart').addClass('random');
+      $('#post-likes').html(data.count);
+    });
+  };
+
+  $(document).ready(ready);
+
+  $(document).on('page:fetch', ready);
+
+  $(document).on('page:load', ready);
+
+  $(document).on('turbolinks:load', ready);
+
+}).call(this);
+:ET

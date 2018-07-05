@@ -1,0 +1,1031 @@
+
+
+Started GET "/" for ::1 at 2018-07-05 15:13:46 -0500
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.8) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.8) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.8) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.8) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (91.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (147.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (258.8ms)
+  [1m[36m (6.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (3.8ms)[0m  select sqlite_version(*)
+  [1m[36m (6.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddConfirmableToDevise (20161105220042)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161105220042"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Migrating to DeviseCreateMembers (20161111224419)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "members" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (3.6ms)[0m  CREATE UNIQUE INDEX "index_members_on_email" ON "members" ("email")
+  [1m[36m (2.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_members_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_members_on_email' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "index_members_on_reset_password_token" ON "members" ("reset_password_token")
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161111224419"]]
+  [1m[35m (3.1ms)[0m  commit transaction
+Migrating to DeviseCreateAdmins (20161114205715)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "admins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.6ms)[0m  [1mCREATE UNIQUE INDEX "index_admins_on_email" ON "admins" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_admins_on_reset_password_token" ON "admins" ("reset_password_token")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161114205715"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Migrating to CreateIssues (20161114234214)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "issues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "sidebar_id" integer, "monday_id" integer, "tuesday_id" integer, "wednesday_id" integer, "thursday_id" integer, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161114234214"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateSidebars (20161115155043)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "sidebars" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "link" varchar, "title" varchar, "image" blob, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161115155043"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddIssueIdToSidebars (20161115162350)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (2.7ms)[0m  [1mALTER TABLE "sidebars" ADD "issue_id" integer[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161115162350"]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Migrating to RemoveSidebarIdFromIssues (20161115170103)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.9ms)[0m  [1mCREATE TEMPORARY TABLE "aissues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "sidebar_id" integer, "monday_id" integer, "tuesday_id" integer, "wednesday_id" integer, "thursday_id" integer, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "issues"
+  [1m[36m (2.4ms)[0m  [1mDROP TABLE "issues"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "issues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "monday_id" integer, "tuesday_id" integer, "wednesday_id" integer, "thursday_id" integer, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aissues"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "aissues"
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161115170103"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+Migrating to CreateMondays (20161115174912)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "mondays" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_id" integer, "date" varchar, "entry" text, "affirmation" text, "moon_sign" varchar, "theme" varchar, "number_1" integer, "number_2" integer, "number_3" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161115174912"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Migrating to RemoveMondayIdFromIssues (20161115180832)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "aissues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "monday_id" integer, "tuesday_id" integer, "wednesday_id" integer, "thursday_id" integer, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "issues"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "issues"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "issues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "tuesday_id" integer, "wednesday_id" integer, "thursday_id" integer, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aissues"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aissues"[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161115180832"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Migrating to RemoveTuesdayIdFromIssues (20161115180847)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "aissues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "tuesday_id" integer, "wednesday_id" integer, "thursday_id" integer, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "issues"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "issues"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "issues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "wednesday_id" integer, "thursday_id" integer, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aissues"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "aissues"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161115180847"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+Migrating to RemoveWednesdayIdFromIssues (20161115180901)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "aissues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "wednesday_id" integer, "thursday_id" integer, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "issues"[0m
+  [1m[35m (0.4ms)[0m  DROP TABLE "issues"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "issues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "thursday_id" integer, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aissues"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aissues"[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161115180901"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Migrating to RemoveThursdayIdFromIssues (20161115180918)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TEMPORARY TABLE "aissues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "thursday_id" integer, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "issues"
+  [1m[36m (0.6ms)[0m  [1mDROP TABLE "issues"[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "issues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aissues"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "aissues"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161115180918"]]
+  [1m[35m (2.9ms)[0m  commit transaction
+Migrating to RemoveFridayIdFromIssues (20161115180931)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TEMPORARY TABLE "aissues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "friday_id" integer, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "issues"[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "issues"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "issues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aissues"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aissues"[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161115180931"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Migrating to RemoveSaturdayIdFromIssues (20161115180944)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "aissues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "saturday_id" integer, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "issues"
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "issues"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "issues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aissues"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "aissues"
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161115180944"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+Migrating to RemoveSundayIdFromIssues (20161115180958)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "aissues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "sunday_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "issues"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "issues"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "issues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_number" varchar, "week" varchar, "main_image" blob, "moon_phase" varchar, "welcome" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "aissues"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "aissues"[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161115180958"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateNumbers (20161116181907)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "numbers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "number" integer, "meaning" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161116181907"]]
+  [1m[36m (5.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateTuesdays (20161116192223)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "tuesdays" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_id" integer, "date" varchar, "entry" text, "affirmation" text, "moon_sign" varchar, "theme" varchar, "number_1" integer, "number_2" integer, "number_3" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161116192223"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateWednesdays (20161116194238)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "wednesdays" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_id" integer, "date" varchar, "entry" text, "affirmation" text, "moon_sign" varchar, "theme" varchar, "number_1" integer, "number_2" integer, "number_3" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161116194238"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Migrating to CreateThursdays (20161116194258)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "thursdays" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_id" integer, "date" varchar, "entry" text, "affirmation" text, "moon_sign" varchar, "theme" varchar, "number_1" integer, "number_2" integer, "number_3" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161116194258"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateFridays (20161116194310)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "fridays" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_id" integer, "date" varchar, "entry" text, "affirmation" text, "moon_sign" varchar, "theme" varchar, "number_1" integer, "number_2" integer, "number_3" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161116194310"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateSaturdays (20161116194325)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "saturdays" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_id" integer, "date" varchar, "entry" text, "affirmation" text, "moon_sign" varchar, "theme" varchar, "number_1" integer, "number_2" integer, "number_3" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161116194325"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateSundays (20161116194345)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "sundays" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "issue_id" integer, "date" varchar, "entry" text, "affirmation" text, "moon_sign" varchar, "theme" varchar, "number_1" integer, "number_2" integer, "number_3" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161116194345"]]
+  [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
+Migrating to AddAttachmentMainImageToIssues (20161116221754)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "issues" ADD "main_image_file_name" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "issues" ADD "main_image_content_type" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "issues" ADD "main_image_file_size" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "issues" ADD "main_image_updated_at" datetime
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161116221754"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Migrating to CreatePodcasts (20161117231651)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "podcasts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "main_image" blob, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161117231651"]]
+  [1m[35m (4.2ms)[0m  commit transaction
+Migrating to CreatePodcastDetails (20161117231802)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "podcast_details" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "image" blob, "link" varchar, "reading" boolean, "podcast_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161117231802"]]
+  [1m[35m (5.4ms)[0m  commit transaction
+Migrating to AddAttachmentMainImageToPodcasts (20161118000017)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "podcasts" ADD "main_image_file_name" varchar
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "podcasts" ADD "main_image_content_type" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "podcasts" ADD "main_image_file_size" integer
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "podcasts" ADD "main_image_updated_at" datetime[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161118000017"]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+Migrating to AddAttachmentImageToPodcastDetails (20161118000045)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.3ms)[0m  [1mALTER TABLE "podcast_details" ADD "image_file_name" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "podcast_details" ADD "image_content_type" varchar
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "podcast_details" ADD "image_file_size" integer[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "podcast_details" ADD "image_updated_at" datetime
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161118000045"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+Migrating to AddDateToPodcast (20161118004528)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "podcasts" ADD "date" varchar
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161118004528"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+Migrating to AddEntryToPodcastDetails (20161121171223)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "podcast_details" ADD "entry" text
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161121171223"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+Migrating to RemoveReadingFromPodcastDetails (20161121171723)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "apodcast_details" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "image" blob, "link" varchar, "reading" boolean, "podcast_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "image_file_name" varchar, "image_content_type" varchar, "image_file_size" integer, "image_updated_at" datetime, "entry" text) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "podcast_details"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "podcast_details"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "podcast_details" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "image" blob, "link" varchar, "podcast_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "image_file_name" varchar, "image_content_type" varchar, "image_file_size" integer, "image_updated_at" datetime, "entry" text) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "apodcast_details"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "apodcast_details"[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161121171723"]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+Migrating to AddPodcastLinkIdToSidebars (20161122195912)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.9ms)[0m  [1mALTER TABLE "sidebars" ADD "podcast_link_id" integer[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161122195912"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateMedia (20161128202018)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "media" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "link" varchar, "title" varchar, "file" blob, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161128202018"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddAttachmentFileToMedia (20161128202942)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "media" ADD "file_file_name" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "media" ADD "file_content_type" varchar
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "media" ADD "file_file_size" integer[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "media" ADD "file_updated_at" datetime
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161128202942"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Migrating to CreatePosts (20170102195813)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "main_image" blob, "category" varchar, "publish_date" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170102195813"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Migrating to CreateComments (20170104001506)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar, "link" varchar, "body" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170104001506"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Migrating to AddParentIdToComments (20170104002322)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "comments" ADD "parent_id" integer
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170104002322"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Migrating to AddPostIdToComments (20170104002616)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "comments" ADD "post_id" integer
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170104002616"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Migrating to CreateCommentHierarchies (20170104003749)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "comment_hierarchies" ("ancestor_id" integer NOT NULL, "descendant_id" integer NOT NULL, "generations" integer NOT NULL) 
+  [1m[36m (0.6ms)[0m  [1mCREATE UNIQUE INDEX "comment_anc_desc_udx" ON "comment_hierarchies" ("ancestor_id", "descendant_id", "generations")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='comment_anc_desc_udx' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='comment_anc_desc_udx' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "comment_desc_idx" ON "comment_hierarchies" ("descendant_id")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170104003749"]]
+  [1m[36m (3.1ms)[0m  [1mcommit transaction[0m
+Migrating to AddAttachmentMainImageToPosts (20170106211647)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "posts" ADD "main_image_file_name" varchar[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "posts" ADD "main_image_content_type" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "posts" ADD "main_image_file_size" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "posts" ADD "main_image_updated_at" datetime
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170106211647"]]
+  [1m[35m (3.0ms)[0m  commit transaction
+Migrating to ActsAsVotableMigration (20170106223817)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamps` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in up at /Users/heatherallaman/Sites/website/db/migrate/20170106223817_acts_as_votable_migration.rb:12)
+  [1m[35m (0.7ms)[0m  CREATE TABLE "votes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "votable_id" integer, "votable_type" varchar, "voter_id" integer, "voter_type" varchar, "vote_flag" boolean, "vote_scope" varchar, "vote_weight" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.6ms)[0m  [1mCREATE  INDEX "index_votes_on_voter_id_and_voter_type_and_vote_scope" ON "votes" ("voter_id", "voter_type", "vote_scope")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_votes_on_voter_id_and_voter_type_and_vote_scope' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_votes_on_voter_id_and_voter_type_and_vote_scope' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1mCREATE  INDEX "index_votes_on_votable_id_and_votable_type_and_vote_scope" ON "votes" ("votable_id", "votable_type", "vote_scope")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170106223817"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddLikesToComments (20170106234604)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "comments" ADD "likes" integer[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170106234604"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateNewsbars (20170111185317)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "newsbars" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "message" text, "show" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170111185317"]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateVideos (20170113192710)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "embed_code" varchar, "show" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170113192710"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateLatestItems (20170119211514)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "latest_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "link" varchar, "show" boolean, "image" blob, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170119211514"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Migrating to AddAttachmentImageToLatestItems (20170119214959)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "latest_items" ADD "image_file_name" varchar[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "latest_items" ADD "image_content_type" varchar
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "latest_items" ADD "image_file_size" integer[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "latest_items" ADD "image_updated_at" datetime
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170119214959"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Migrating to AddButtonTextToLatestItems (20170119220117)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  ALTER TABLE "latest_items" ADD "button_text" varchar
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170119220117"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+Migrating to CreateTestimonials (20170121195420)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "testimonials" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "image" blob, "show" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170121195420"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Migrating to AddAttachmentImageToTestimonials (20170121195508)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "testimonials" ADD "image_file_name" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "testimonials" ADD "image_content_type" varchar[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "testimonials" ADD "image_file_size" integer
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "testimonials" ADD "image_updated_at" datetime[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170121195508"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePages (20170122031913)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "body" text, "main_image" blob, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170122031913"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Migrating to AddAttachmentMainImageToPages (20170122031936)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "pages" ADD "main_image_file_name" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "pages" ADD "main_image_content_type" varchar
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "pages" ADD "main_image_file_size" integer[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "pages" ADD "main_image_updated_at" datetime
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170122031936"]]
+  [1m[35m (5.3ms)[0m  commit transaction
+Migrating to AddNameToPages (20170122032450)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "pages" ADD "name" varchar
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170122032450"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+Migrating to CreateFaqs (20170125203446)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170125203446"]]
+  [1m[35m (9.4ms)[0m  commit transaction
+Migrating to AddSymbolToIssues (20170131202640)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  ALTER TABLE "issues" ADD "symbol" blob
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170131202640"]]
+  [1m[35m (3.4ms)[0m  commit transaction
+Migrating to AddAttachmentSymbolToIssues (20170131202917)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  ALTER TABLE "issues" ADD "symbol_file_name" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "issues" ADD "symbol_content_type" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "issues" ADD "symbol_file_size" integer
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "issues" ADD "symbol_updated_at" datetime[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170131202917"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddMantraToMonday (20170131222338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170131222338"]]
+  [1m[35m (2.2ms)[0m  commit transaction
+Migrating to AddMantraToTuesday (20170131222343)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170131222343"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+Migrating to AddMantraToWednesday (20170131222348)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170131222348"]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Migrating to AddMantraToThursday (20170131222353)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170131222353"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddMantraToFriday (20170131222357)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170131222357"]]
+  [1m[35m (5.2ms)[0m  commit transaction
+Migrating to AddMantraToSaturday (20170131222402)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170131222402"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+Migrating to AddMantraToSunday (20170131222407)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170131222407"]]
+  [1m[35m (20.4ms)[0m  commit transaction
+Migrating to AddAttachmentMantraToMondays (20170131222950)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "mondays" ADD "mantra_file_name" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "mondays" ADD "mantra_content_type" varchar[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "mondays" ADD "mantra_file_size" integer
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "mondays" ADD "mantra_updated_at" datetime[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170131222950"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddAttachmentMantraToTuesdays (20170131223319)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mALTER TABLE "tuesdays" ADD "mantra_file_name" varchar[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "tuesdays" ADD "mantra_content_type" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "tuesdays" ADD "mantra_file_size" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "tuesdays" ADD "mantra_updated_at" datetime
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170131223319"]]
+  [1m[35m (2.3ms)[0m  commit transaction
+Migrating to AddAttachmentMantraToWednesdays (20170131223326)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  ALTER TABLE "wednesdays" ADD "mantra_file_name" varchar
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "wednesdays" ADD "mantra_content_type" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "wednesdays" ADD "mantra_file_size" integer
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "wednesdays" ADD "mantra_updated_at" datetime[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170131223326"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddAttachmentMantraToThursdays (20170131223339)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "thursdays" ADD "mantra_file_name" varchar[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "thursdays" ADD "mantra_content_type" varchar
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "thursdays" ADD "mantra_file_size" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "thursdays" ADD "mantra_updated_at" datetime
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170131223339"]]
+  [1m[35m (4.8ms)[0m  commit transaction
+Migrating to AddAttachmentMantraToFridays (20170131223359)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "fridays" ADD "mantra_file_name" varchar
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "fridays" ADD "mantra_content_type" varchar[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "fridays" ADD "mantra_file_size" integer
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "fridays" ADD "mantra_updated_at" datetime[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170131223359"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddAttachmentMantraToSaturdays (20170131223406)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "saturdays" ADD "mantra_file_name" varchar[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "saturdays" ADD "mantra_content_type" varchar
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "saturdays" ADD "mantra_file_size" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "saturdays" ADD "mantra_updated_at" datetime
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170131223406"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+Migrating to AddAttachmentMantraToSundays (20170131223414)
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "sundays" ADD "mantra_file_name" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "sundays" ADD "mantra_content_type" varchar[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "sundays" ADD "mantra_file_size" integer
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "sundays" ADD "mantra_updated_at" datetime[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170131223414"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Migrating to AddShortTitleToPosts (20170201210117)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "posts" ADD "short_title" varchar[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170201210117"]]
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+Migrating to AddLikesToPosts (20170201211323)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "posts" ADD "likes" integer[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170201211323"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admins_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admins_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='comment_desc_idx' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='comment_desc_idx' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='comment_anc_desc_udx' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='comment_anc_desc_udx' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_members_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_members_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_members_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_members_on_email' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_votes_on_votable_id_and_votable_type_and_vote_scope' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_votes_on_votable_id_and_votable_type_and_vote_scope' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_votes_on_voter_id_and_voter_type_and_vote_scope' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_votes_on_voter_id_and_voter_type_and_vote_scope' AND type='index'
+
+
+
+Started GET "/" for ::1 at 2018-07-05 15:14:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.4ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (201.8ms)
+  Rendered layouts/_header.html.erb (10.4ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 23409ms (Views: 22620.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 15:14:41 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.3ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (11.4ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1392ms (Views: 156.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 15:14:43 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.1ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2183ms (Views: 111.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/_custom.self-e062237da7211914181acda87dfcdf27637ba8cde56ff6567e0497a7cf6cd70b.css?body=1" for ::1 at 2018-07-05 15:14:45 -0500
+
+
+Started GET "/assets/_responsive_tabs.self-275a68d0477760faafacaac36c6d4d3956c11e36b85809fdc031b391c496ed90.css?body=1" for ::1 at 2018-07-05 15:14:45 -0500
+
+
+Started GET "/assets/comments.self-ce948726946950215e05880ca6485653fcc0326ef3df37577701be47c613ff43.css?body=1" for ::1 at 2018-07-05 15:14:45 -0500
+
+
+Started GET "/assets/heart.self-893aa5149c5f3e2b3936f748f9d971e26b4d2762b99a12f739cd29ec40ad489e.css?body=1" for ::1 at 2018-07-05 15:14:45 -0500
+
+
+Started GET "/assets/pages.self-079465bc94b906163a83d8044b59c79cc5a8ceae0f03b3cf1358e4f6f822046d.css?body=1" for ::1 at 2018-07-05 15:14:45 -0500
+
+
+Started GET "/assets/posts.self-366fa2cdc7d9283fe84ab0dd7bddad14834819f1012e909f9c028a24082a715e.css?body=1" for ::1 at 2018-07-05 15:14:45 -0500
+
+
+Started GET "/assets/scaffolds.self-7f52a9aa4aa15ebb406902a9a1f268db97997114c19cfeddfcdf0845dd4da365.css?body=1" for ::1 at 2018-07-05 15:14:45 -0500
+
+
+Started GET "/assets/application.self-599009622f5edbf967a7af1842d710f2e5dc7430cca786f6b470ea39d6b8527d.css?body=1" for ::1 at 2018-07-05 15:14:45 -0500
+
+
+Started GET "/assets/welcome.self-40ad8360b13faecdc1e1127a89a4345333815f940b2cb2171a0999ebadf46ea6.css?body=1" for ::1 at 2018-07-05 15:14:45 -0500
+
+
+Started GET "/images/laughing.jpg" for ::1 at 2018-07-05 15:14:45 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/laughing.jpg"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (45.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (315.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (97.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (214.2ms)
+
+
+Started GET "/images/standing.jpg" for ::1 at 2018-07-05 15:14:46 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/standing.jpg"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (153.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (67.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (175.7ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 15:15:44 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (8188.4ms)
+  Rendered layouts/_header.html.erb (6.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 10599ms (Views: 8661.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 15:15:55 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.1ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2401ms (Views: 171.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 15:16:20 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.6ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (28.1ms)
+  Rendered layouts/_header.html.erb (6.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 8390ms (Views: 6806.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/welcome.self-4dd6ceccd56d519c5f0b229bab383fa101b9a96ffd330f0f281519aa4b6d8c93.css?body=1" for ::1 at 2018-07-05 15:16:29 -0500
+
+
+Started GET "/images/meditationg.jpg" for ::1 at 2018-07-05 15:16:29 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/meditationg.jpg"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (179.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (83.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (188.5ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 15:17:08 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (1.4ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_header.html.erb (6.4ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 2299ms (Views: 571.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/images/meditationg.jpg" for ::1 at 2018-07-05 15:17:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/meditationg.jpg"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (227.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (90.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (192.3ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 15:17:24 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (1.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (23.0ms)
+  Rendered layouts/_header.html.erb (12.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 10241ms (Views: 8223.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/welcome.self-58311aeeb2ac702d5748d9046b551c769b6c5f6769eea0499c5fc64314b0d119.css?body=1" for ::1 at 2018-07-05 15:17:34 -0500
+
+
+Started GET "/" for ::1 at 2018-07-05 15:19:07 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.6ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (35.9ms)
+  Rendered layouts/_header.html.erb (5.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 9031ms (Views: 6864.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/welcome.self-cdb691d1611fd02ffd87b6ad90071811f79fdc91870e7793204b60dd4cefb785.css?body=1" for ::1 at 2018-07-05 15:19:16 -0500
+
+
+Started GET "/images/meditation.jpg" for ::1 at 2018-07-05 15:19:16 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/meditation.jpg"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (250.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (82.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (174.9ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 15:19:19 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2395ms (Views: 197.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/meditation.jpg" for ::1 at 2018-07-05 15:19:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/meditation.jpg"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (156.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (146.1ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 15:19:25 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.1ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 8063ms (Views: 5582.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/welcome.self-e895eeea727ca833fc6eee8b8f2e2232a125f32b3b8b8c38e8876b441aedc979.css?body=1" for ::1 at 2018-07-05 15:19:33 -0500

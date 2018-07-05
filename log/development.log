@@ -1039,3 +1039,24 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_messages.html.erb (0.6ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 2290ms (Views: 574.2ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 16:13:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (4.7ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (1253.7ms)
+  Rendered layouts/_header.html.erb (7.6ms)
+  Rendered layouts/_messages.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 3554ms (Views: 1682.3ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/" for ::1 at 2018-07-05 16:13:47 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (11.7ms)
+  Rendered layouts/_header.html.erb (5.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3659ms (Views: 312.6ms | ActiveRecord: 0.2ms)

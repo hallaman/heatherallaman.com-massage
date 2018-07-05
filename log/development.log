@@ -1029,3 +1029,13 @@ Completed 200 OK in 8063ms (Views: 5582.9ms | ActiveRecord: 0.1ms)
 
 
 Started GET "/assets/welcome.self-e895eeea727ca833fc6eee8b8f2e2232a125f32b3b8b8c38e8876b441aedc979.css?body=1" for ::1 at 2018-07-05 15:19:33 -0500
+
+
+Started GET "/" for ::1 at 2018-07-05 15:37:32 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (5.5ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (46.7ms)
+  Rendered layouts/_header.html.erb (6.7ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2290ms (Views: 574.2ms | ActiveRecord: 5.5ms)

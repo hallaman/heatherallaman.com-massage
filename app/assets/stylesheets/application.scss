@@ -1,0 +1,53 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require font-awesome
+ *= require rails_bootstrap_forms
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+@import "rails_bootstrap_forms";
+
+@import "_animations.scss";
+@import "_colors.scss";
+
+@import "_custom.scss";
+@import "scaffolds.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Laila:100,400,500,800');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,400,500,800');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Rochester|Rouge+Script');
+
+
+@import "summernote";
+@import "_responsive_tabs.scss";
+
+
+@font-face {
+  font-family: 'MANIFESTO';
+  src: asset-url('MANIFESTO.eot');  
+  src: asset-url('MANIFESTO.eot?#iefix') format('embedded-opentype'),  
+    asset-url('MANIFESTO.woff') format('woff'),  
+    asset-url('MANIFESTO.ttf') format('truetype'),  
+    asset-url('MANIFESTO.svg#MANIFESTO') format('svg');  
+  font-weight: normal;  
+  font-style: normal;  
+}
+
+@import "heart.scss";
+
+

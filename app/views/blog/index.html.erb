@@ -1,0 +1,42 @@
+<div class="container-fluid cropped_header">
+  <%= image_tag('cropped_header.png', style: 'visibility: hidden; width: 100%; height: auto;') %>
+</div>
+
+<div class="page container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <p>
+      <%= form_tag(blog_path, :method => "get", id: "search-form") do %>
+      <div class="input-group">
+        <%= text_field_tag :search, params[:search], placeholder: "Search Posts", class: 'form-control' %>
+        <div class="input-group-btn">
+          <%= submit_tag "Search", class: 'btn btn-default' %>
+        </div>
+      </div>
+      
+      <% end %>
+      </p>
+
+      <% if @posts.present? %>
+
+        <%= render 'posts' %>
+
+      <% else %>
+        <p>There are no posts containing the term(s) <%= params[:search] %>.</p>
+      <% end %>
+
+
+     
+      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p class="pull-right"><%= link_to "^ Back To Top".html_safe, blog_path, class: 'btn btn-default' %></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+</div>

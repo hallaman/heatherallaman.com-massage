@@ -1,0 +1,164 @@
+/* modifications to bootstrap */
+@import "_colors.scss";
+
+$notification-confirm: $light-mauve;  
+$notification-warning: $eggshell;                 
+$notification-alert: $pink; 
+$notification-error: $light-gray-purple;         
+
+%notification {
+  border-radius: 5px;
+  display: block;
+  font-size: 1em;
+  padding: 2em;
+  margin: 1em 0;
+  width: 100%;
+  text-align: left;
+  color: #333;
+
+  animation: fadein 2s;
+}
+
+.alert {
+  @extend %notification;
+}
+
+.alert li {
+  list-style-type: none;
+}
+
+/*flash*/
+.alert-error,
+.btn-error,
+.btn-error:hover,
+.btn-error:active,
+.btn-error:focus {
+    background-color: $notification-error !important;
+    border: none;
+ }
+
+.alert-alert,
+.btn-alert,
+.btn-alert:hover,
+.btn-alert:active,
+.btn-alert:focus {
+    background-color: $notification-alert !important;
+    border: none;
+ }
+
+.alert-success,
+.btn-success,
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+    background-color: $notification-confirm !important;
+    border: none;
+ }
+
+.alert-notice {
+    background-color: $notification-warning;
+    border: 1px solid $gold;
+}
+
+#error_explanation ul li {
+  margin: 0 40px 0;
+}
+
+.thumbnail {
+  border: none;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: $light-mauve;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: $white;
+}
+
+.navbar-default {
+  background-color: transparentize(#ffffff, .7);
+  border: none;
+}
+
+.navbar-collapse {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  width: 50%;
+}
+
+.navbar-toggle {
+  float: left;
+}
+
+.navbar-bottom {
+  z-index: 1;
+
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0px;
+  .container-fluid {
+    padding: 0;
+  }
+}
+
+.pager li > a, .pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+}
+
+.pager li > a:hover {
+  background-color: #fff;
+  opacity: .6;
+  transition: opacity .5s ease forward;
+}
+
+.thumbnail {
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.row {
+  padding: 60px 0;
+}
+
+.carousel-indicators {
+
+}
+
+.carousel-indicators li {
+  border: 1px solid $blackish;
+}
+
+.carousel-indicators .active {
+  background-color: $blackish;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    top: 0px;
+    left: 50%;
+  }
+
+  .navbar-nav .open .dropdown-menu {
+    text-align: center;
+  }
+}
+

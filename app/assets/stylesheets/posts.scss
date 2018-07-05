@@ -1,0 +1,139 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "_colors.scss";
+
+.daily {
+	max-width: 800px;
+	margin: 0px auto;
+	text-align: left;
+	h2 {
+		font-family: 'MANIFESTO';
+		text-transform: uppercase;
+	}
+
+	h4 {
+		text-transform: uppercase;
+		font-weight: 300;
+		.emph-day {
+			font-size: 1.2em;
+			padding-right: 12px;
+		}
+	}
+
+	.entry {
+		padding: 15px 20px;
+		line-height: 3em;
+		font-size: 1.2em;
+	}
+
+	iframe, object, embed {
+	  max-width: 100%;
+	}
+	
+}
+
+blockquote {
+	p {
+		font-size: 1.2em;
+	}
+	.badge {
+		margin-top: -20px;
+	}
+}
+
+
+.post-listing {
+	max-width: 800px;
+	margin: 0px auto;
+	text-align: center;
+	a {
+		color: $blackish;
+	}
+	a:hover {
+		color: $blackish;
+		text-decoration: none;
+	}
+	h4 {
+		margin-bottom: 20px;
+		font-size: 2em !important;
+		font-weight: 300;
+	}
+	h3 {
+		font-family: "MANIFESTO";
+		padding-top: 30px !important;
+		font-size: 2em !important;
+		line-height: 1.8em !important;
+		font-weight: 300;
+	}
+	h2 {
+		font-family: 'MANIFESTO';
+		font-weight: 300;
+		padding-bottom: 30px !important;
+		text-transform: uppercase;
+	}
+}
+
+.comments-section {
+	.row {
+		padding: 0 0 60px;
+	}
+}
+
+.post-listing {
+	.row {
+		padding: 60px 0 0px;
+	}
+}
+
+.read-post {
+	font-family: "MANIFESTO";
+	color: $blackish;
+}
+a.read-post:hover {
+	color: $gold !important;
+}
+
+.share-comments {
+	padding-top: 20px;
+}
+
+.share-this {
+	margin-bottom: 60px;
+
+	a {
+		cursor: pointer;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+	span.count {
+		float: left;
+		padding-top: 10px;
+	}
+
+	.fa {
+		font-size: 2em;
+		padding: 0 5px;
+		float: left;
+	}
+	.fa:hover {
+		color: $gold;
+	}
+
+	h2 { 
+		display: inline-block;
+		font-size: 1.6em;
+		font-weight: 800;
+		margin-left: 5px;
+	}
+}
+
+#latest .short {
+	padding-bottom: 40px;
+	img.thumbnail {
+		max-width: 100%;
+		padding: 20px 0;
+	}
+}
+

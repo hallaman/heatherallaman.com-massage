@@ -1,0 +1,86 @@
+<div class="container">
+	<div class="daily text-center">
+	  <div class="col-xs-12 post-listing">
+	  	<div class="row">
+	  		<h4><%= @post.publish_date.strftime('%-d-%m-%Y') %></h4>
+	      <h2><%= @post.short_title if @post.short_title.present? %></h2>
+	      <div class="thumbnail">
+	        <%= image_tag(@post.main_image.url(:thumb), :alt => @post.title, :class => "issue-img") if @post.main_image.present? %>
+	      </div>
+	    	
+	    	<h3><%= @post.title %></h3>
+
+				<%= image_tag('daily_readings_symbol.png', width: 100, style: 'padding-bottom: 30px;') %>
+
+
+				<div class="entry text-left">
+					<%= @post.body.html_safe %>
+					<p class="text-center">		
+						<%= link_to post_like_path(:post_id => @post.id,
+    :id => @post.id), class: 'post-like', method: :put, remote: true, data: { type: :json } do
+						 render  partial: 'posts/heart', locals: { thing_id: 'post-'+@post.id.to_s, heart_class: "purple"}
+				    end %>
+						<span id="post-likes" class="badge"><%= @post.likes %></span>
+					</p>
+				</div>
+				<hr class="col-xs-12" />
+				<div class="share-this">
+					
+          <a href="http://www.facebook.com/sharer/sharer.php?u=<%=  URI.parse(request.base_url + request.original_fullpath) %>&title=<%= URI::escape(@post.title) %>" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <span class="count"><%= @facebook_count %></span>
+          </a>
+         
+          <a href="http://pinterest.com/pin/create/bookmarklet/?media=<%= @post.main_image.url %>&url=<%=  URI.parse(request.base_url + request.original_fullpath) %>&is_video=false&description=<%= URI::escape(@post.title) %>" target="_blank">
+              <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+              <span class="count"><%= @pinterest_count %></span>
+          </a>
+          
+          <a href="https://plus.google.com/share?url=<%=  URI.parse(request.base_url + request.original_fullpath) %>" target="_blank">
+             <i class="fa fa-google-plus" aria-hidden="true"></i>
+             <span class="count"><%= @google_count %></span>
+          </a>
+
+          <a href="http://www.tumblr.com/share?v=3&u=<%=  URI.parse(request.base_url + request.original_fullpath) %>&t=<%= URI::escape(@post.title) %>" target="_blank">
+              <i class="fa fa-tumblr" aria-hidden="true"></i>
+          </a>
+          <a href="http://twitter.com/intent/tweet?status=<%= URI::escape(@post.title) %>+<%=  URI.parse(request.base_url + request.original_fullpath) %>" target="_blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:?body=<%=  URI.parse(request.base_url + request.original_fullpath) %>" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          <h2><%= @sum.to_s + ' shares' %></h2>
+				</div> 
+
+				<div id="latest">
+					<% @latest.each do |short| %>
+
+					<%
+            @url = URI.parse(request.base_url).to_s + '/posts/' + short.id.to_s + '?locale=en'
+            
+            @facebook_count = SocialShares.facebook @url
+            @pinterest_count = SocialShares.pinterest @url
+            @google_count = SocialShares.google @url
+            @facebook_count ||= 0
+            @pinterest_count ||= 0
+            @google_count ||= 0
+            @sum = @facebook_count + @pinterest_count + @google_count 
+ 
+          %>
+
+					<div class="col-xs-12 col-sm-4 short">
+						<%= link_to image_tag(short.main_image.url(:thumb), :alt => short.title, :class => "thumbnail"), post_path(short) if short.main_image.present? %>
+						<p><%= link_to short.title, post_path(short) %></p>
+						<small><%= short.likes.present? ? short.likes.to_s + ' likes' : ' 0 likes' %></small>
+						&nbsp;&middot;&nbsp;
+						<small><%= @sum.to_s + ' shares' %></small>
+					</div>
+
+					<% end %>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+

@@ -80,7 +80,7 @@ gem 'backport_new_renderer'
 # gem 'capistrano-rails', group: :development
 
 group :production, :staging do
-  gem 'pg' 
+  gem 'pg', '~> 0.11'
   gem 'rails_12factor'
 end
 

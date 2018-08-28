@@ -235,7 +235,10 @@
 
 										<div class="col-xs-12">
 			          			<%= strip_tags(testimonial.body) %>
-			          			<p class="sig">-<%= testimonial.title %></p>										  
+			          			<p class="sig">-<%= testimonial.title %></p>	
+			          			<div class="thumbnail">
+												<%= image_tag testimonial.image %>
+											</div>									  
 			          		</div>
 				          </div>
 				      <% end %>

@@ -234,11 +234,16 @@
 				       	<% end %>
 
 										<div class="col-xs-12">
-			          			<%= strip_tags(testimonial.body) %>
-			          			<p class="sig">-<%= testimonial.title %></p>	
-			          			<div class="thumbnail">
-												<%= image_tag testimonial.image %>
-											</div>									  
+											<p>
+												<div style="float: left; padding-right: 20px;">
+				          				<div class="thumbnail align-center" style="max-width: 200px;">
+														<%= image_tag testimonial.image %>
+														<h2 style="padding: 15px 0 0 0; text-align: center;"><%= testimonial.title %></h2>
+													</div>	
+												</div>	
+				          			<%= strip_tags(testimonial.body) %>
+				          		</p>
+			          											  
 			          		</div>
 				          </div>
 				      <% end %>

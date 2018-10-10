@@ -48,6 +48,10 @@
 	}
 }
 
+.bodywork {
+  padding-left: 30px;
+}
+
 
 .about {
   display: flex;
@@ -175,4 +179,9 @@
     width: 100%;
     height: 200px;
   }
+
+  .bodywork {
+    padding-left: 0px;
+  }
+
 }

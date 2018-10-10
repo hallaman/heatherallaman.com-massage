@@ -3609,3 +3609,363 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_messages.html.erb (0.3ms)
   Rendered layouts/_footer.html.erb (0.2ms)
 Completed 200 OK in 833ms (Views: 431.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2018-10-10 08:30:24 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (17.4ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (347.4ms)
+  Rendered layouts/_header.html.erb (13.1ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (10.1ms)
+Completed 200 OK in 2683ms (Views: 1411.5ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/assets/_animations.self-0ce5c482440e752fcf6071994e05f22bbb8c9369e6b6883d8a279fb42817fc25.css?body=1" for ::1 at 2018-10-10 08:30:27 -0500
+
+
+Started GET "/assets/comments.self-ce948726946950215e05880ca6485653fcc0326ef3df37577701be47c613ff43.css?body=1" for ::1 at 2018-10-10 08:30:27 -0500
+
+
+Started GET "/assets/posts.self-366fa2cdc7d9283fe84ab0dd7bddad14834819f1012e909f9c028a24082a715e.css?body=1" for ::1 at 2018-10-10 08:30:27 -0500
+
+
+Started GET "/assets/pages.self-079465bc94b906163a83d8044b59c79cc5a8ceae0f03b3cf1358e4f6f822046d.css?body=1" for ::1 at 2018-10-10 08:30:27 -0500
+
+
+Started GET "/assets/heart.self-893aa5149c5f3e2b3936f748f9d971e26b4d2762b99a12f739cd29ec40ad489e.css?body=1" for ::1 at 2018-10-10 08:30:27 -0500
+
+
+Started GET "/assets/font-awesome.self-407fb3615be540a148636cc5d171903af160c86d0eaf12321feadbd280e334c3.css?body=1" for ::1 at 2018-10-10 08:30:27 -0500
+
+
+Started GET "/assets/rails_bootstrap_forms.self-10cb7d2aef696c4062f219f6678eed1d57c254a6717cea25d021726a4b9a214c.css?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/summernote/index.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/summernote/summernote.self-705c5e982342fd840034552f46a01606e6b310b393359cd69a6254d59623d5f3.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for ::1 at 2018-10-10 08:30:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/issues.self-835cf3ebb3ed6bd13be3685af6275296ff23de92127972546432636ef6486497.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/latest_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/newsbars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/moon_vibe_guide.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/post_likes.self-8edf7e2a57a64f8cc23f8d4ee877cf28f6eb2dbcc56ac93b8bf7c1ed20063f21.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/posts.self-3de9385e5c7f03f7baebdff3a8c105c31b5a605b97722d386a10c05bcbfb428f.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/testimonials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/topic_likes.self-3775982a35374c5d623657dc9a703d48f2d341dfc5acfa94f9b16d879dff4fe8.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/videos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/assets/application.self-7c44b34571f9c6f50024ec815db695a00182b9937b48d97c4ac1515ab6b385a0.js?body=1" for ::1 at 2018-10-10 08:30:29 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:31:10 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (2.5ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (68.7ms)
+  Rendered layouts/_header.html.erb (7.6ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 1934ms (Views: 809.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for ::1 at 2018-10-10 08:31:47 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.9ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (51.3ms)
+  Rendered layouts/_header.html.erb (10.2ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1518ms (Views: 390.3ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for ::1 at 2018-10-10 08:32:05 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (2.1ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (22.3ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1053ms (Views: 425.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2018-10-10 08:34:00 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.9ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (44.2ms)
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8729ms (Views: 8172.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/scaffolds.self-1da7d90aa76e6539ca9cc6cfff2e7d3f673608d06f87cd3fc1cb4eb69eda8bc0.css?body=1" for ::1 at 2018-10-10 08:34:09 -0500
+
+
+Started GET "/assets/application.self-093d5e952b3ebb70a94c38fc79d9766a4d4b608f2aa02392d1ca3ba6f9873513.css?body=1" for ::1 at 2018-10-10 08:34:09 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:34:25 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (2.3ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_header.html.erb (5.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7053ms (Views: 6302.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/scaffolds.self-3a4243635b440dce611e4e8b9032876986228243ee5b1904dd500a65583dc505.css?body=1" for ::1 at 2018-10-10 08:34:32 -0500
+
+
+Started GET "/assets/application.self-981bb542e9d555b9df3ec5af17fbab3e32bea7e8d4072afee0b6eaecef2ecb37.css?body=1" for ::1 at 2018-10-10 08:34:32 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:38:51 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.7ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (44.0ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7856ms (Views: 6947.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.self-99fb23f4e5647b4a37fabee67bacb6995fab71772b31ce11de0614c49d02eabd.css?body=1" for ::1 at 2018-10-10 08:38:59 -0500
+
+
+Started GET "/assets/scaffolds.self-92792fd8d0c772b1f39dccb0c0a2a826e6fdada3bfe4ab546f29ea57bc229fb6.css?body=1" for ::1 at 2018-10-10 08:38:59 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:39:13 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (2.3ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (18.4ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 6461ms (Views: 5954.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/scaffolds.self-038c1e71a1aba1324154b17e9a5853a65965ab1fe8ed98809be56e06fe9d70af.css?body=1" for ::1 at 2018-10-10 08:39:20 -0500
+
+
+Started GET "/assets/application.self-24a76431bd50a4f167f766de45d7bd53c5c7f4b5b39900aea1c45e52113872e2.css?body=1" for ::1 at 2018-10-10 08:39:20 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:41:55 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.8ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (49.2ms)
+  Rendered layouts/_header.html.erb (5.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7627ms (Views: 6892.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/scaffolds.self-f6a59b4b070efb9e9e508016648ced3586aabab3cf2fed0a662eac3cf246be70.css?body=1" for ::1 at 2018-10-10 08:42:03 -0500
+
+
+Started GET "/assets/application.self-43d51bea8e39b84aad3bc3c648dc6442be5249e13ad8eec9c3ce94b59d23b310.css?body=1" for ::1 at 2018-10-10 08:42:03 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:42:39 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (2.7ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (39.0ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8377ms (Views: 7650.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/scaffolds.self-62e76f92f2e4f939598535e198a7ffd204d07bded1d216a2496a8bd8b8e1e064.css?body=1" for ::1 at 2018-10-10 08:42:48 -0500
+
+
+Started GET "/assets/application.self-67e7283ddf373bd07de49ba04cc063ff54ea34c673be3005b3d9d11d0c3b2fe6.css?body=1" for ::1 at 2018-10-10 08:42:48 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:49:27 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (3.0ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (46.6ms)
+  Rendered layouts/_header.html.erb (6.8ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 1364ms (Views: 422.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-10 08:49:44 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (2.3ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (14.9ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7837ms (Views: 6723.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.self-a234820bda47506a6e82d787b6341110fc50d28428c99ec24ee75435d5fa5ae1.css?body=1" for ::1 at 2018-10-10 08:49:52 -0500
+
+
+Started GET "/assets/scaffolds.self-2cb14913df6e1c02c034d8534ce7d35f16c4427ba3415d110d86cc2ca7f6b74e.css?body=1" for ::1 at 2018-10-10 08:49:52 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:51:44 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.6ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (44.4ms)
+  Rendered layouts/_header.html.erb (6.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7880ms (Views: 7436.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.self-ee9a506cf822bab2de639f1e095f8f00ffa0b039d794c4d705783b0cb2ed4a96.css?body=1" for ::1 at 2018-10-10 08:51:52 -0500
+
+
+Started GET "/assets/scaffolds.self-0082c04c92041c8188e02a6c22321a96ced57ca9aac43f9dce21f043c4b404a3.css?body=1" for ::1 at 2018-10-10 08:51:52 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:55:13 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (3.8ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (65.8ms)
+  Rendered layouts/_header.html.erb (7.9ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1099ms (Views: 543.7ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/" for ::1 at 2018-10-10 08:56:18 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.3ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_header.html.erb (5.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7558ms (Views: 6623.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.self-da50ff26e6dac67c1713f2a48e9c9ebac581a4d517c2e3e6529639ab24745c6b.css?body=1" for ::1 at 2018-10-10 08:56:26 -0500
+
+
+Started GET "/assets/scaffolds.self-1c4bff7e7c87b43303d4f6ff6d54552466fe821830de710c7a8128c4c96b36f3.css?body=1" for ::1 at 2018-10-10 08:56:26 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:57:24 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (2.8ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (39.2ms)
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 6952ms (Views: 6282.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/welcome.self-dca13f100d8b3ed8dcd429d52eb90f324aca5de91947e255874e44e9899e23c7.css?body=1" for ::1 at 2018-10-10 08:57:31 -0500
+
+
+Started GET "/" for ::1 at 2018-10-10 08:58:14 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.3ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (18.3ms)
+  Rendered layouts/_header.html.erb (5.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1466ms (Views: 345.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for ::1 at 2018-10-10 08:58:34 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (2.3ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (18.1ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 7270ms (Views: 6401.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/welcome.self-b835a76acb3b6ffdf8f384d2ccaa6e354b9c207eaf652c84b55c7559d07c880d.css?body=1" for ::1 at 2018-10-10 08:58:42 -0500

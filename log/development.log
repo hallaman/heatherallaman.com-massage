@@ -4325,3 +4325,780 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_messages.html.erb (0.3ms)
   Rendered layouts/_footer.html.erb (0.3ms)
 Completed 200 OK in 1602ms (Views: 810.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/" for ::1 at 2019-03-12 09:18:05 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 1586ms (ActiveRecord: 0.2ms)
+
+SyntaxError (/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:79: syntax error, unexpected '<'
+							</ul>
+							 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:81: unknown regexp option - h
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:81: syntax error, unexpected tINTEGER, expecting ')'
+							<h3>This package is for you, if...</h3>
+							                                      ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:83: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+								<li>You are feeling a deep desire to con...
+								           ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:84: unknown regexp option - l
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:85: syntax error, unexpected '<'
+								<li>You REALLY want to create ...
+								 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:85: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+								<li>You REALLY want to create transformatio...
+								              ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:85: syntax error, unexpected keyword_in, expecting ')'
+...ant to create transformation in your body and mind</li>
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:86: unknown regexp option - l
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:87: syntax error, unexpected '<'
+							</ul>
+							 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:89: unknown regexp option - b
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:89: syntax error, unexpected '<'
+							<p><b>$2000 for 12 weeks of weekly sessions and support</b></p>
+							                                                            ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:90: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:94: syntax error, unexpected '<'
+					</div>
+					 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:96: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:97: syntax error, unexpected '<'
+			</div>
+			 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:98: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:99: syntax error, unexpected '<'
+	</div> -->
+	 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:107: unknown regexp option - h
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:107: syntax error, unexpected tINTEGER, expecting ')'
+						<h2>REVEALING THE LANDSCAPE</h2>
+						                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:112: unknown regexp option - p
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:114: syntax error, unexpected '<'
+							<h3>What\'s included:</h3>
+							 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:114: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+							<h3>What\'s included:</h3>
+							         ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:219: syntax error, unexpected '<'
+				</div>  -->
+				 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:221: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:222: syntax error, unexpected '<'
+		</div>
+		 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:223: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:226: syntax error, unexpected '<'
+	<div class="col-xs-12 testimonials">
+	 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:227: syntax error, unexpected '<'
+		<div class="container-fluid">
+		 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:228: syntax error, unexpected '<'
+			<div class="row">
+			 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:230: syntax error, unexpected '<'
+					<div class="entry col-xs-12 col-sm-6 text-left">
+					 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:231: syntax error, unexpected '<'
+						<h2>WHAT CLIENTS HAVE TO SAY</h2>
+						 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:231: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+						<h2>WHAT CLIENTS HAVE TO SAY</h2>
+						                ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:232: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:234: syntax error, unexpected '<'
+					<div class="entry col-xs-12 col-sm-6 text-right border-left">
+					 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:235: syntax error, unexpected '<'
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:235: syntax error, unexpected keyword_class, expecting ')'
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					                          ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:235: syntax error, unexpected tIDENTIFIER, expecting ')'
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					                                                ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:238: syntax error, unexpected '<'
+					  <!-- Wrapper for slides -->
+					   ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:238: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+					  <!-- Wrapper for slides -->
+					                  ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:239: syntax error, unexpected tIDENTIFIER, expecting ')'
+					  <div class="carousel-inner" role="listbox">
+					                                  ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:243: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+@output_buffer.safe_append='				          <div class="item active">
+                            				                    ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:245: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+@output_buffer.safe_append='									<div class="item">
+                            									          ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:248: syntax error, unexpected '<', expecting ')'
+										<div class="col-xs-12">
+										 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:249: syntax error, unexpected '<'
+											<p>
+											 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:251: syntax error, unexpected '<'
+				          				<div class="thumbnail align-ce...
+				          				 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:251: syntax error, unexpected tIDENTIFIER, expecting ')'
+...="thumbnail align-center" style="max-width: 250px;">
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:253: syntax error, unexpected '<', expecting ')'
+														<h2 style="padding: 15px 0 0 0...
+														 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:254: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:255: syntax error, unexpected '<'
+												</div>	
+												 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:257: unknown regexp option - p
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:259: syntax error, unexpected '<'
+			          		</div>
+			          		 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:260: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:263: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:264: syntax error, unexpected '<'
+					</div>
+					 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:266: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:268: syntax error, unexpected '<'
+			</div>
+			 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:269: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:270: syntax error, unexpected '<'
+	</div>
+	 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:279: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:280: syntax error, unexpected '<'
+				</div>
+				 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:283: unknown regexp option - h
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:283: syntax error, unexpected tINTEGER, expecting ')'
+					<h2>ABOUT HEATHER</h4>
+					                     ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:284: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+					<p class="entry">As I continuously refine my abili...
+					                     ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:284: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...ty to bring myself home, I want to help you find compassion ...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:284: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...and connection - qualities that are abundant within us all. ...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:284: syntax error, unexpected keyword_in, expecting ')'
+...ws you to feel your emotions in a way that gives you more in...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:284: syntax error, unexpected keyword_in, expecting ')'
+...re information and a step up in opening up to a more whole v...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected '<'
+					<p class="entry">My own journe...
+					 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+					<p class="entry">My own journey has ushered me in ov...
+					                       ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected keyword_in, expecting ')'
+...y own journey has ushered me in overcoming anxiety and openi...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected keyword_in, expecting ')'
+...iety and opening to who I am in my heart - an intuitive and ...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...I am in my heart - an intuitive and healing person. After st...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...studying computer science, as a web developer in corporate e...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected keyword_in, expecting ')'
+... science, as a web developer in corporate environments, teac...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...ate environments, teaching yoga on the side. 10 years later,...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected tINTEGER, expecting '('
+..., teaching yoga on the side. 10 years later, I felt I no lon...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...he side. 10 years later, I felt I no longer fit into that ro...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:286: syntax error, unexpected $undefined
+... fit into that role and couldn\'t ignore my desire to develo...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:331: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:333: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/index.html.erb:79: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:81: unknown regexp option - h
+  app/views/welcome/index.html.erb:81: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/welcome/index.html.erb:83: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:84: unknown regexp option - l
+  app/views/welcome/index.html.erb:85: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:85: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:85: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:86: unknown regexp option - l
+  app/views/welcome/index.html.erb:87: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:89: unknown regexp option - b
+  app/views/welcome/index.html.erb:89: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:90: unknown regexp options - dv
+  app/views/welcome/index.html.erb:94: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:96: unknown regexp options - dv
+  app/views/welcome/index.html.erb:97: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:98: unknown regexp options - dv
+  app/views/welcome/index.html.erb:99: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:107: unknown regexp option - h
+  app/views/welcome/index.html.erb:107: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/welcome/index.html.erb:112: unknown regexp option - p
+  app/views/welcome/index.html.erb:114: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:114: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:219: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:221: unknown regexp options - dv
+  app/views/welcome/index.html.erb:222: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:223: unknown regexp options - dv
+  app/views/welcome/index.html.erb:226: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:227: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:228: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:230: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:231: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:231: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:232: unknown regexp options - dv
+  app/views/welcome/index.html.erb:234: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:235: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:235: syntax error, unexpected keyword_class, expecting ')'
+  app/views/welcome/index.html.erb:235: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/welcome/index.html.erb:238: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:238: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:239: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/welcome/index.html.erb:243: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:245: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:248: syntax error, unexpected '<', expecting ')'
+  app/views/welcome/index.html.erb:249: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:251: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:251: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/welcome/index.html.erb:253: syntax error, unexpected '<', expecting ')'
+  app/views/welcome/index.html.erb:254: unknown regexp options - dv
+  app/views/welcome/index.html.erb:255: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:257: unknown regexp option - p
+  app/views/welcome/index.html.erb:259: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:260: unknown regexp options - dv
+  app/views/welcome/index.html.erb:263: unknown regexp options - dv
+  app/views/welcome/index.html.erb:264: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:266: unknown regexp options - dv
+  app/views/welcome/index.html.erb:268: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:269: unknown regexp options - dv
+  app/views/welcome/index.html.erb:270: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:279: unknown regexp options - dv
+  app/views/welcome/index.html.erb:280: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:283: unknown regexp option - h
+  app/views/welcome/index.html.erb:283: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/welcome/index.html.erb:284: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:284: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:284: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:284: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:284: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:286: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:286: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:286: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:286: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:286: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:286: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:286: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:286: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:286: syntax error, unexpected tINTEGER, expecting '('
+  app/views/welcome/index.html.erb:286: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:286: syntax error, unexpected $undefined
+  app/views/welcome/index.html.erb:331: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/index.html.erb:333: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (101.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (173.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (294.3ms)
+
+
+Started GET "/" for ::1 at 2019-03-12 09:19:17 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.4ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (19102.8ms)
+  Rendered layouts/_header.html.erb (10.4ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 20647ms (Views: 19563.9ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/_animations.self-0ce5c482440e752fcf6071994e05f22bbb8c9369e6b6883d8a279fb42817fc25.css?body=1" for ::1 at 2019-03-12 09:19:37 -0500
+
+
+Started GET "/assets/_colors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2019-03-12 09:19:37 -0500
+
+
+Started GET "/assets/_custom.self-eaedfad62896b5429eeaf699bd0093b4ea28cafbb2061f9e975276c5f28a0e73.css?body=1" for ::1 at 2019-03-12 09:19:37 -0500
+
+
+Started GET "/assets/heart.self-2e768dafa527af5b37995cc4500bb8fc40789bda7e175407b24cec4e28f7f32d.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/pages.self-7fbbc5c7b1a0e42ea70e8a150c675c54d24aa007303685e94a64d68658290178.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/comments.self-9f3597632b22247cecf21d1600a2fe372a15d375415aedb8f389a6e395c3be1a.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/_responsive_tabs.self-a09bc8ebaf3557f0cecd2a12a930b8fe6fbbf1b835e02c5cffd413a8adc80b36.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/fa_qs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/posts.self-59305307c16bc9bd8e5349a92c7d1c7f0438b6438685e97f51961c7d9b0b4468.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/scaffolds.self-0082c04c92041c8188e02a6c22321a96ced57ca9aac43f9dce21f043c4b404a3.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/application.self-ee9a506cf822bab2de639f1e095f8f00ffa0b039d794c4d705783b0cb2ed4a96.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/welcome.self-b835a76acb3b6ffdf8f384d2ccaa6e354b9c207eaf652c84b55c7559d07c880d.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/font-awesome.self-407fb3615be540a148636cc5d171903af160c86d0eaf12321feadbd280e334c3.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/rails_bootstrap_forms.self-10cb7d2aef696c4062f219f6678eed1d57c254a6717cea25d021726a4b9a214c.css?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/summernote/summernote.self-705c5e982342fd840034552f46a01606e6b310b393359cd69a6254d59623d5f3.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/summernote/index.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/issues.self-835cf3ebb3ed6bd13be3685af6275296ff23de92127972546432636ef6486497.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/latest_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/moon_vibe_guide.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/newsbars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/post_likes.self-8edf7e2a57a64f8cc23f8d4ee877cf28f6eb2dbcc56ac93b8bf7c1ed20063f21.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/posts.self-3de9385e5c7f03f7baebdff3a8c105c31b5a605b97722d386a10c05bcbfb428f.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/testimonials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/topic_likes.self-3775982a35374c5d623657dc9a703d48f2d341dfc5acfa94f9b16d879dff4fe8.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/videos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/assets/application.self-7c44b34571f9c6f50024ec815db695a00182b9937b48d97c4ac1515ab6b385a0.js?body=1" for ::1 at 2019-03-12 09:19:38 -0500
+
+
+Started GET "/" for ::1 at 2019-03-12 09:20:12 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.5ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (25.5ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 1528ms (Views: 354.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2019-03-12 09:21:43 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.9ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (51.5ms)
+  Rendered layouts/_header.html.erb (6.3ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1148ms (Views: 618.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2019-03-12 09:22:21 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.1ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (13.4ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5835ms (Views: 329.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2019-03-12 09:23:01 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1173ms (Views: 374.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-03-12 09:24:05 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (25.5ms)
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2133ms (Views: 522.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-03-12 09:24:37 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (15.4ms)
+  Rendered layouts/_header.html.erb (6.1ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 7255ms (Views: 6881.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.self-b4c43493fd92811aefd3a4964970f8c5021ca37a09118dcf37ee0cf9b5ecdff0.css?body=1" for ::1 at 2019-03-12 09:24:45 -0500
+
+
+Started GET "/assets/application.self-fd99363d1dbd59420cc2fc40f0dc262d58047e5cabde97b3179e20e88e04d964.css?body=1" for ::1 at 2019-03-12 09:24:45 -0500
+
+
+Started GET "/" for ::1 at 2019-03-12 09:26:04 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.3ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_header.html.erb (7.4ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 6823ms (Views: 6392.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.self-92bd54d9686a051830d9177afb059bff576496136e1ce097c0df27dad5e940a4.css?body=1" for ::1 at 2019-03-12 09:26:11 -0500
+
+
+Started GET "/assets/application.self-61a7719fb276b6186a10009a24449f24276b80d9527a2e629598187ecf8191c5.css?body=1" for ::1 at 2019-03-12 09:26:11 -0500
+
+
+Started GET "/" for ::1 at 2019-03-12 09:26:25 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.5ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (20.7ms)
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 709ms (Views: 332.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-03-12 09:27:57 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.6ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (41.3ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8175ms (Views: 7017.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/welcome/assets/images/favicon.ico" for ::1 at 2019-03-12 09:28:06 -0500
+
+ActionController::RoutingError (No route matches [GET] "/welcome/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (65.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (244.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (79.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (181.4ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-03-12 09:28:06 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4351ms (Views: 197.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/assets/images/favicon.ico" for ::1 at 2019-03-12 09:28:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/welcome/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (15.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (211.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (134.2ms)
+
+
+Started GET "/assets/scaffolds.self-fb7d55d0eb7234f7c1bbddf02fe69c7d302cd4df3be91ec7db4a848c3846f14b.css?body=1" for ::1 at 2019-03-12 09:28:11 -0500
+
+
+Started GET "/assets/application.self-46c796c96f60923d4ef6ef97f96e18d57db8a1196dec2217b65d85d7aec1f715.css?body=1" for ::1 at 2019-03-12 09:28:11 -0500
+
+
+Started GET "/welcome/assets/images/favicon.ico" for ::1 at 2019-03-12 09:28:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/welcome/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (171.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (135.6ms)
+
+
+Started GET "/contact?locale=en" for ::1 at 2019-03-12 09:28:14 -0500
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered contacts/_form.html.erb (224.7ms)
+  Rendered contacts/new.html.erb within layouts/application (229.1ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 385ms (Views: 363.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-03-12 09:28:27 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.9ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (33.2ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 4504ms (Views: 394.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-03-12 09:30:08 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.6ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (39.9ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3722ms (Views: 611.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-03-12 09:30:41 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.1ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (11.9ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5854ms (Views: 292.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-03-12 09:31:37 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (1.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (47.2ms)
+  Rendered layouts/_header.html.erb (7.7ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3356ms (Views: 558.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-03-12 09:31:45 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (20.5ms)
+  Rendered layouts/_header.html.erb (8.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2473ms (Views: 207.9ms | ActiveRecord: 0.2ms)

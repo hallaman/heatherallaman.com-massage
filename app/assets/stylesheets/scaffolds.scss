@@ -162,7 +162,9 @@ div {
 }
 
 
-.ha-btn {
+.ha-btn,
+.btn-pink,
+.btn-gold  {
   background-color: transparent;
   color: $white;
   border-radius: 0;
@@ -172,18 +174,6 @@ div {
   font-size: 1.3em;
   border: 2px solid $white;
   width: auto;
-}
-
-.btn-pink,
-.btn-gold {
-  padding: 10px 0;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  letter-spacing: .1em;
-  border-radius: 3px;
-  text-transform: uppercase;
-  max-width: 200px;
-  width: 100%;
 }
 
 .btn-gold {
@@ -201,7 +191,8 @@ div {
   border-color: $pink;
 }
 .btn-pink:hover {
-  color: $gold;
+  background-color: transparent;
+  color: $pink;
 }
 
 .btn:hover {
@@ -209,7 +200,7 @@ div {
 }
 
 .bold-gold {
-  text-transform: uppercase;
+  background-color: transparent;
   color: $gold;
 }
 

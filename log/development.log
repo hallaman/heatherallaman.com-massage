@@ -5102,3 +5102,155 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_messages.html.erb (0.1ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 2473ms (Views: 207.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-04-17 10:49:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.8ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (3281.1ms)
+  Rendered layouts/_header.html.erb (13.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 5327ms (Views: 4034.7ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/_colors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2019-04-17 10:49:24 -0500
+
+
+Started GET "/assets/_custom.self-eaedfad62896b5429eeaf699bd0093b4ea28cafbb2061f9e975276c5f28a0e73.css?body=1" for ::1 at 2019-04-17 10:49:24 -0500
+
+
+Started GET "/assets/_animations.self-0ce5c482440e752fcf6071994e05f22bbb8c9369e6b6883d8a279fb42817fc25.css?body=1" for ::1 at 2019-04-17 10:49:24 -0500
+
+
+Started GET "/assets/_responsive_tabs.self-a09bc8ebaf3557f0cecd2a12a930b8fe6fbbf1b835e02c5cffd413a8adc80b36.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/comments.self-9f3597632b22247cecf21d1600a2fe372a15d375415aedb8f389a6e395c3be1a.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/fa_qs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/heart.self-2e768dafa527af5b37995cc4500bb8fc40789bda7e175407b24cec4e28f7f32d.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/pages.self-7fbbc5c7b1a0e42ea70e8a150c675c54d24aa007303685e94a64d68658290178.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/posts.self-59305307c16bc9bd8e5349a92c7d1c7f0438b6438685e97f51961c7d9b0b4468.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/scaffolds.self-fb7d55d0eb7234f7c1bbddf02fe69c7d302cd4df3be91ec7db4a848c3846f14b.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/welcome.self-b835a76acb3b6ffdf8f384d2ccaa6e354b9c207eaf652c84b55c7559d07c880d.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/application.self-46c796c96f60923d4ef6ef97f96e18d57db8a1196dec2217b65d85d7aec1f715.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/font-awesome.self-407fb3615be540a148636cc5d171903af160c86d0eaf12321feadbd280e334c3.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/rails_bootstrap_forms.self-10cb7d2aef696c4062f219f6678eed1d57c254a6717cea25d021726a4b9a214c.css?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2019-04-17 10:49:25 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/summernote/summernote.self-705c5e982342fd840034552f46a01606e6b310b393359cd69a6254d59623d5f3.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/summernote/index.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/issues.self-835cf3ebb3ed6bd13be3685af6275296ff23de92127972546432636ef6486497.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/latest_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/moon_vibe_guide.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/newsbars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-04-17 10:49:26 -0500
+
+
+Started GET "/assets/post_likes.self-8edf7e2a57a64f8cc23f8d4ee877cf28f6eb2dbcc56ac93b8bf7c1ed20063f21.js?body=1" for ::1 at 2019-04-17 10:49:27 -0500
+
+
+Started GET "/assets/posts.self-3de9385e5c7f03f7baebdff3a8c105c31b5a605b97722d386a10c05bcbfb428f.js?body=1" for ::1 at 2019-04-17 10:49:27 -0500
+
+
+Started GET "/assets/testimonials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-04-17 10:49:27 -0500
+
+
+Started GET "/assets/topic_likes.self-3775982a35374c5d623657dc9a703d48f2d341dfc5acfa94f9b16d879dff4fe8.js?body=1" for ::1 at 2019-04-17 10:49:27 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-04-17 10:49:27 -0500
+
+
+Started GET "/assets/videos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-04-17 10:49:27 -0500
+
+
+Started GET "/assets/application.self-7c44b34571f9c6f50024ec815db695a00182b9937b48d97c4ac1515ab6b385a0.js?body=1" for ::1 at 2019-04-17 10:49:27 -0500

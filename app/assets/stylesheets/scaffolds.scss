@@ -7,15 +7,15 @@ html {
 }
 
 body {
+  font-family: 'Crimson', Palatino, serif;
+
   background-color: $white;
   color: $blackish;
   font-size: 1.2em;
-  letter-spacing: .1em;
   line-height: 1.2em;
   width: 100%;
   height: 100%;
 
-  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
 
   > .container {
   }
@@ -33,7 +33,7 @@ h1, h2, h3 {
 }
 
 h2 {
-  font-family: 'Work Sans', Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Domaine', Palatino, sans-serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;
@@ -42,17 +42,19 @@ h2 {
 }
 
 h3 {
-  font-family: 'Work Sans', Helvetica, Arial, Lucida, sans-serif;
-  font-weight: 400;
+  font-family: 'Verlag', Arial, sans-serif;
+  font-weight: 700;
   font-size: 1.5em;
   line-height: 1em;
-  color: $blackish;
+  color: $green;
   margin-top: 1em;
 }
 
 h4 {
-  font-weight: 500;
+  font-family: 'Verlag', Arial, sans-serif;
+  font-weight: 700;
   margin: 0;
+  font-size: 1.5em;
   line-height: 1em;
   color: $white;
 }
@@ -386,22 +388,29 @@ div {
   padding: 20px;
   color: $white;
 
+  p {
+    font-size: 1.3em;
+    line-height: 1em;
+  }
+
   .footer-flex {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 95%;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
 
     .schedule {
-      align-self: flex-end;
+      align-content: flex-end;
+      float: right;
+      width: 100%;
+      padding-bottom: 30px;
 
       h4 {
         padding-bottom: 10px;
-      }
-
-      p {
-        text-align: left;
       }
 
       a {
@@ -409,18 +418,16 @@ div {
       }
     }
     .bottom {
-      align-self: flex-start;
-      text-align: left;
+      align-content: flex-end;
       width: 100%;
-      padding: 20px 0 0 0;
-      margin-bottom: 0px;
+      margin: 0px;
+
+      a { color: $white; }
+      
     }
   }
 
-  p {
-    font-size: 1em;
-    line-height: .75em;
-  }
+  
 
   
 }

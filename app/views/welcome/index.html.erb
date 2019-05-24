@@ -98,58 +98,6 @@
 
 
 
-
-	
-	
-
-	<div class="col-xs-12 testimonials">
-		<div class="container-fluid">
-			<div class="row">
-
-					<div class="entry col-xs-12 col-sm-6 text-left">
-						<h2>WHAT CLIENTS HAVE TO SAY</h2>
-					</div>	
-
-					<div class="entry col-xs-12 col-sm-6 text-right border-left">
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-						
-
-					  <!-- Wrapper for slides -->
-					  <div class="carousel-inner" role="listbox">
-					  	 <%= @testimonials.each_with_index do |testimonial, index| %>
-
-					  	 	<% if index == 0 %>
-				          <div class="item active">
-				       	<% else %>
-									<div class="item">
-				       	<% end %>
-
-										<div class="col-xs-12">
-											<p>
-												<div style="float: left; padding-right: 20px;">
-				          				<div class="thumbnail align-center" style="max-width: 250px;">
-														<%= image_tag testimonial.image %>
-														<!-- <h2 style="padding: 15px 0 0 0; text-align: center;">
-															<%= testimonial.title %>
-														</h2> -->
-													</div>	
-												</div>	
-				          			<%= strip_tags(testimonial.body) %>
-				          		</p>
-			          											  
-			          		</div>
-				          </div>
-				      <% end %>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-	</div>
-
 	<div class="col-xs-12">
 		<div class="container about" id="about">
 			<div class="row">

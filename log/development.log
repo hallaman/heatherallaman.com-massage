@@ -7067,3 +7067,174 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_messages.html.erb (0.1ms)
   Rendered layouts/_footer.html.erb (1.6ms)
 Completed 200 OK in 633ms (Views: 303.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-24 08:07:29 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (2.7ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (63.6ms)
+  Rendered layouts/_header.html.erb (19.1ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (8.4ms)
+Completed 200 OK in 2735ms (Views: 705.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-24 08:07:37 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (44.5ms)
+Completed 500 Internal Server Error in 400ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:134: syntax error, unexpected '<'
+														</h2>
+														 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:135: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:136: syntax error, unexpected '<'
+												</div>	
+												 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:138: unknown regexp option - p
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:140: syntax error, unexpected '<'
+			          		</div>
+			          		 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:141: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:144: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:145: syntax error, unexpected '<'
+					</div>
+					 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:147: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:149: syntax error, unexpected '<'
+			</div>
+			 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:150: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:151: syntax error, unexpected '<'
+	</div>
+	 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:160: unknown regexp options - dv
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:161: syntax error, unexpected '<'
+				</div>
+				 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:164: unknown regexp option - h
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:164: syntax error, unexpected tINTEGER, expecting ')'
+					<h2>ABOUT HEATHER</h4>
+					                     ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:165: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+					<p>As I continuously refine my abili...
+					       ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:165: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...ty to bring myself home, I want to help you find compassion ...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:165: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...and connection - qualities that are abundant within us all. ...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:165: syntax error, unexpected keyword_in, expecting ')'
+...ws you to feel your emotions in a way that gives you more in...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:165: syntax error, unexpected keyword_in, expecting ')'
+...re information and a step up in opening up to a more whole v...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected '<'
+					<p>My own journey has ushered ...
+					 ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+					<p>My own journey has ushered me in ov...
+					         ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected keyword_in, expecting ')'
+...y own journey has ushered me in overcoming anxiety and openi...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected keyword_in, expecting ')'
+...iety and opening to who I am in my heart - an intuitive and ...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...I am in my heart - an intuitive and healing person. After st...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...studying computer science, as a web developer in corporate e...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected keyword_in, expecting ')'
+... science, as a web developer in corporate environments, teac...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...ate environments, teaching yoga on the side. 10 years later,...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected tINTEGER, expecting '('
+..., teaching yoga on the side. 10 years later, I felt I no lon...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...he side. 10 years later, I felt I no longer fit into that ro...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:167: syntax error, unexpected $undefined
+... fit into that role and couldn\'t ignore my desire to develo...
+...                               ^
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:197: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/heatherallaman/Sites/heatherallaman/app/views/welcome/index.html.erb:199: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/index.html.erb:134: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:135: unknown regexp options - dv
+  app/views/welcome/index.html.erb:136: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:138: unknown regexp option - p
+  app/views/welcome/index.html.erb:140: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:141: unknown regexp options - dv
+  app/views/welcome/index.html.erb:144: unknown regexp options - dv
+  app/views/welcome/index.html.erb:145: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:147: unknown regexp options - dv
+  app/views/welcome/index.html.erb:149: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:150: unknown regexp options - dv
+  app/views/welcome/index.html.erb:151: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:160: unknown regexp options - dv
+  app/views/welcome/index.html.erb:161: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:164: unknown regexp option - h
+  app/views/welcome/index.html.erb:164: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/welcome/index.html.erb:165: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:165: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:165: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:165: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:165: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:167: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:167: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:167: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:167: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:167: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:167: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:167: syntax error, unexpected keyword_in, expecting ')'
+  app/views/welcome/index.html.erb:167: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:167: syntax error, unexpected tINTEGER, expecting '('
+  app/views/welcome/index.html.erb:167: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/welcome/index.html.erb:167: syntax error, unexpected $undefined
+  app/views/welcome/index.html.erb:197: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/index.html.erb:199: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (112.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (81.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.2.6/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (181.3ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-24 08:08:06 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (2.9ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (73.5ms)
+  Rendered layouts/_header.html.erb (11.8ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (4.7ms)
+Completed 200 OK in 1009ms (Views: 601.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-24 08:08:29 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (2.5ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (20.2ms)
+  Rendered layouts/_header.html.erb (6.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 1188ms (Views: 425.9ms | ActiveRecord: 2.5ms)

@@ -7668,3 +7668,846 @@ Started GET "/assets/scaffolds.self-abc302150b0490c1e5d8ebdb6df856dbfc1d8b6f12cf
 
 
 Started GET "/assets/application.self-31a5b5d6977f0f7fc17bb43a4be70b3b963f81b4421da351ece0cbbc8b0ce11f.css?body=1" for ::1 at 2019-05-31 11:09:24 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:11:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_header.html.erb (6.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.9ms)
+Completed 200 OK in 5841ms (Views: 5474.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-604f7feb52ceef0b111526cb13db753bb41ec1d54baf896ad35d5fe62dbdf372.css?body=1" for ::1 at 2019-05-31 11:11:26 -0500
+
+
+Started GET "/assets/application.self-10df7a3405b328f37db21fd40ca09deda4a2a437919b345f30428a7d769ff025.css?body=1" for ::1 at 2019-05-31 11:11:26 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:12:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (23.9ms)
+  Rendered layouts/_header.html.erb (9.6ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (5.1ms)
+Completed 200 OK in 787ms (Views: 423.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:13:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (14.1ms)
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 9951ms (Views: 5798.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-4aeb620343791cb4d5aed89c7a33a7cd94392287080ff527b987fa7a8135eb0b.css?body=1" for ::1 at 2019-05-31 11:13:54 -0500
+
+
+Started GET "/assets/application.self-684fa2f5ca742ed1748549454788f240af2546f88c51d2f5748b935f5d5a52f1.css?body=1" for ::1 at 2019-05-31 11:13:54 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:14:51 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 5989ms (Views: 5635.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2392439481dcb4e43b96913ccc88cf8d31e04c71d3490bde1a1aba4813d1dd3f.css?body=1" for ::1 at 2019-05-31 11:14:57 -0500
+
+
+Started GET "/assets/scaffolds.self-7cd74421cca24b1598a5eb733c99d410ffdaebefd94137c960f047f032a7cf10.css?body=1" for ::1 at 2019-05-31 11:14:57 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:15:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.5ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 9560ms (Views: 5330.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-2b0b1ce8ecf90fc49ff2ecb7701b094f7b7f836b271f6f8a59fe60b9bd784d56.css?body=1" for ::1 at 2019-05-31 11:15:52 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:17:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (19.7ms)
+  Rendered layouts/_header.html.erb (5.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 6148ms (Views: 5527.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5ec5a1fcc0bbfa1e0bad5586365362a4825f3e6572b60be96f0a38a6a3efdfe5.css?body=1" for ::1 at 2019-05-31 11:17:10 -0500
+
+
+Started GET "/assets/scaffolds.self-2878191bfaab802592dcd87f8cdc7bacbff41a840f4f9d389be39414b071aefb.css?body=1" for ::1 at 2019-05-31 11:17:10 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:17:18 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_header.html.erb (4.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 5291ms (Views: 4942.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9a96f7df38c4a1005bfc9c08fb913f27ee5cc1e4f40200a818ff499da9fcf229.css?body=1" for ::1 at 2019-05-31 11:17:24 -0500
+
+
+Started GET "/assets/scaffolds.self-75aff0219220815a1fc9aa70c7ecfad0bd95708c41398b126dc4b37c7e56d7d2.css?body=1" for ::1 at 2019-05-31 11:17:24 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:18:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (21.3ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 6062ms (Views: 5349.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-29e79d2516d823abb697b35e9eb0908b5279066242430ee69323603407c828de.css?body=1" for ::1 at 2019-05-31 11:18:10 -0500
+
+
+Started GET "/assets/application.self-130c9e3e983957e33e09a84b6114cd737053ae0d2eed5f4917fdbb69cc7421cb.css?body=1" for ::1 at 2019-05-31 11:18:10 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:18:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 4870ms (Views: 4000.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-308fc368757cf22af2fb3d07ca012aaa37559665c1703f3d0657e896c0ba3e49.css?body=1" for ::1 at 2019-05-31 11:18:21 -0500
+
+
+Started GET "/assets/application.self-15e3110040d11a5e02b9ed199c2292ad445c5d77d50cca821532d7594b602521.css?body=1" for ::1 at 2019-05-31 11:18:21 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:18:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (6.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 5261ms (Views: 4977.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-54476e3912ac1c1ecb144dbf198b2f12fe3885d6e5278cd48d3022b242ccea4c.css?body=1" for ::1 at 2019-05-31 11:18:49 -0500
+
+
+Started GET "/assets/scaffolds.self-a1702aa90e5ec29bc07d4a72091b2e4cac2ed089c9876df32d8c1a47f01c77b5.css?body=1" for ::1 at 2019-05-31 11:18:50 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:19:30 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.9ms)
+  Rendered layouts/_header.html.erb (6.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (5.1ms)
+Completed 200 OK in 8178ms (Views: 5441.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fcd1a906a49a430f57b5582176db506f701df8f9e58807b784427b95ff928aea.css?body=1" for ::1 at 2019-05-31 11:19:39 -0500
+
+
+Started GET "/assets/scaffolds.self-70e23d09f87791c8fb9f7770e12a43f18e62d69718cd0f9766cf6cd9b0f66232.css?body=1" for ::1 at 2019-05-31 11:19:39 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:20:09 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 6359ms (Views: 5605.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-2c888dc912eed547811c5a7ada546f3db709c984159817e619fa4126f5b90fd9.css?body=1" for ::1 at 2019-05-31 11:20:16 -0500
+
+
+Started GET "/assets/application.self-7081c25e7e10ddb82fed9fb9e74aceee9428c16c8aedebd95ef6301cf86934e7.css?body=1" for ::1 at 2019-05-31 11:20:16 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:20:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (15.9ms)
+  Rendered layouts/_header.html.erb (6.1ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (6.6ms)
+Completed 200 OK in 4118ms (Views: 294.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:21:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_header.html.erb (6.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 3775ms (Views: 319.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:22:10 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (16.9ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (4.9ms)
+Completed 200 OK in 1181ms (Views: 433.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:22:52 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (26.4ms)
+  Rendered layouts/_header.html.erb (9.0ms)
+  Rendered layouts/_messages.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (5.3ms)
+Completed 200 OK in 4868ms (Views: 438.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:23:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (16.5ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 1334ms (Views: 615.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:24:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 577ms (Views: 264.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:25:00 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 4972ms (Views: 301.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:25:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (19.2ms)
+  Rendered layouts/_header.html.erb (7.7ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 1109ms (Views: 324.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:25:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (6.2ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 753ms (Views: 459.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:25:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 598ms (Views: 274.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:26:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_header.html.erb (6.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 658ms (Views: 295.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:27:09 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 616ms (Views: 296.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:27:22 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 877ms (Views: 189.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:27:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (12.3ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 805ms (Views: 458.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:28:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.2ms)
+  Rendered layouts/_header.html.erb (7.5ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (4.9ms)
+Completed 200 OK in 777ms (Views: 381.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:28:27 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 865ms (Views: 322.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:28:52 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 1059ms (Views: 291.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:29:32 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (20.3ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 978ms (Views: 613.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:29:48 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 593ms (Views: 269.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:30:20 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (23.3ms)
+  Rendered layouts/_header.html.erb (7.1ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 2350ms (Views: 353.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:30:39 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 529ms (Views: 202.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:37:59 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (18.9ms)
+  Rendered layouts/_header.html.erb (9.5ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 791ms (Views: 398.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:38:24 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 1219ms (Views: 472.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:38:45 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_header.html.erb (6.3ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 1119ms (Views: 302.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:39:01 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (15.2ms)
+  Rendered layouts/_header.html.erb (7.1ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 1123ms (Views: 294.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:39:12 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_header.html.erb (5.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 1025ms (Views: 296.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:39:31 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 628ms (Views: 277.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:39:51 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 988ms (Views: 267.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:40:22 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 1641ms (Views: 270.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:41:34 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (24.3ms)
+  Rendered layouts/_header.html.erb (18.3ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (8.3ms)
+Completed 200 OK in 873ms (Views: 467.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:41:53 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 6126ms (Views: 5784.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-18b50c398e0961163dd268e0e928215992c83fe191eee181bb4246ce444da72c.css?body=1" for ::1 at 2019-05-31 11:41:59 -0500
+
+
+Started GET "/assets/application.self-df6b833ef843ddb37232e836e4372bc39146bb610b3475384e86395a2f490b4e.css?body=1" for ::1 at 2019-05-31 11:41:59 -0500
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:42:13 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+Completed 500 Internal Server Error in 60070ms (ActiveRecord: 0.0ms)
+
+Faraday::ConnectionFailed (execution expired):
+  app/controllers/welcome_controller.rb:9:in `index'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (138.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (172.5ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:43:13 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (43.1ms)
+  Rendered layouts/_header.html.erb (11.4ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (6.0ms)
+Completed 200 OK in 5089ms (Views: 515.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:44:21 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (25.9ms)
+  Rendered layouts/_header.html.erb (29.7ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (5.4ms)
+Completed 200 OK in 1308ms (Views: 542.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:45:22 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (28.5ms)
+  Rendered layouts/_header.html.erb (14.2ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (247.0ms)
+Completed 200 OK in 1444ms (Views: 695.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:45:45 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 566ms (Views: 262.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:46:16 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (13.8ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 7351ms (Views: 5654.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-080876486f8c70717ee7465e8c6076e837f99766367cfe54c5bb942f501ef003.css?body=1" for ::1 at 2019-05-31 11:46:24 -0500
+
+
+Started GET "/assets/application.self-37e42212c555ea4be78de8b71367e1bebd0cf9d9b6a8267011a252be40805681.css?body=1" for ::1 at 2019-05-31 11:46:24 -0500
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:47:04 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+Completed 500 Internal Server Error in 60060ms (ActiveRecord: 0.0ms)
+
+Faraday::ConnectionFailed (execution expired):
+  app/controllers/welcome_controller.rb:9:in `index'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (35.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (66.1ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:48:05 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.7ms)
+  Rendered layouts/_header.html.erb (5.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (5.0ms)
+Completed 200 OK in 6123ms (Views: 5756.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-d2579376d3a20150385a1e005c6e2dec54d2f2a19e82b0e2a5f82d18a44bad0e.css?body=1" for ::1 at 2019-05-31 11:48:11 -0500
+
+
+Started GET "/assets/application.self-45eade4acf0086976a455a5f0c46c3d1b6457abd78d5de353722ebd7d593c564.css?body=1" for ::1 at 2019-05-31 11:48:11 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:48:15 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.7ms)
+Completed 200 OK in 3782ms (Views: 272.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:48:30 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 5668ms (Views: 4902.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-ce456cfe33958d1a15f8b48d494c70187ea0fb6df77b7afd78123cab519ad956.css?body=1" for ::1 at 2019-05-31 11:48:36 -0500
+
+
+Started GET "/assets/application.self-fa7d1de18fa41b5f87991595ac7b84df0aba60fe26df487a3230e256cec178c5.css?body=1" for ::1 at 2019-05-31 11:48:36 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:48:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 789ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:50:11 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.9ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 345ms (Views: 320.0ms | ActiveRecord: 13.1ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:50:35 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 5111ms (Views: 5109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-42042868b88849d7d83c74f9bfd83abc894c977119eba261990757742dc3b136.css?body=1" for ::1 at 2019-05-31 11:50:40 -0500
+
+
+Started GET "/assets/application.self-ae1d3bc8b1328f9db8f1b0e1dee7acb91d01c46a2a92706400703069a4879d27.css?body=1" for ::1 at 2019-05-31 11:50:40 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:51:02 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 264ms (Views: 262.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:51:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 4908ms (Views: 4907.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-032c9b5ef22542cb8d0e9bf8663524dd38227361486bd4cd77dc371176b2968a.css?body=1" for ::1 at 2019-05-31 11:51:45 -0500
+
+
+Started GET "/assets/application.self-3f7978c4b88612571169a3d0b1b6c4f362518294eddb7d24ddee3ae0fc2ec299.css?body=1" for ::1 at 2019-05-31 11:51:45 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:52:45 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (22.1ms)
+  Rendered layouts/_header.html.erb (6.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 5360ms (Views: 5346.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-0663d2fbd6162269ac31dfc7878ddb87120e52c2274025662eee5dd42d759fdd.css?body=1" for ::1 at 2019-05-31 11:52:50 -0500
+
+
+Started GET "/assets/application.self-97c397c039ea5ca229ec906cb5b40a27010dbabc8edfe0d7645692eb0ffebea9.css?body=1" for ::1 at 2019-05-31 11:52:50 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:53:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (16.3ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 5245ms (Views: 5237.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-db27fb25b456cad21105634f1d6ca29947c62c45d14988aa00e6a57479f26089.css?body=1" for ::1 at 2019-05-31 11:53:22 -0500
+
+
+Started GET "/assets/application.self-c4ffcfcadd1d24e086c87f3c92d9da87629dad7820829846f5f4aebd31e39eeb.css?body=1" for ::1 at 2019-05-31 11:53:22 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:53:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 5512ms (Views: 5509.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-004d76891336c761979927914c0c695989fe472ccb471c1b36eefefa2db91c98.css?body=1" for ::1 at 2019-05-31 11:53:47 -0500
+
+
+Started GET "/assets/application.self-b3822e8185876057c194cdaf5d9a1055b0e78ed93b9710a97bdcae022e568c6e.css?body=1" for ::1 at 2019-05-31 11:53:47 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:58:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (31.6ms)
+  Rendered layouts/_header.html.erb (9.1ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (5.0ms)
+Completed 200 OK in 475ms (Views: 460.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:59:13 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (22.2ms)
+  Rendered layouts/_header.html.erb (8.8ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 378ms (Views: 365.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:59:18 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 126ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:59:36 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (24.0ms)
+  Rendered layouts/_header.html.erb (9.5ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 344ms (Views: 332.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 11:59:51 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 467ms (Views: 466.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:00:53 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 276ms (Views: 275.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:01:05 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (5.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 300ms (Views: 299.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:01:42 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 325ms (Views: 324.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:01:55 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (7.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 285ms (Views: 283.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:02:01 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 248ms (Views: 246.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:02:26 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 262ms (Views: 260.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:02:56 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 266ms (Views: 265.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:04:45 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (23.6ms)
+  Rendered layouts/_header.html.erb (7.9ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 433ms (Views: 423.9ms | ActiveRecord: 0.0ms)

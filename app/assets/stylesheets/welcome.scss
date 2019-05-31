@@ -42,10 +42,6 @@
 
 .manifesto {
   background-color: $beige;
-	h4 {
-    font-size: 2em;
-		line-height: 2em;
-	}
 }
 
 .bodywork {
@@ -93,31 +89,7 @@
 }
 
 .latestitems {
-  h3, h5 {
-    font-family: 'MANIFESTO';
-    padding-bottom: 15px;
-    margin-bottom: 0;
-  }
-
-  .container  {
-    border-top: 1px solid rgba($gold, .3);
-    border-bottom: 1px solid rgba($gold, .3);
-    margin: 0px auto;
-    padding: 0;
-  }
-
-  h4 {
-    width: 150px;
-    margin: 0px auto;
-    padding-bottom: 15px;
-    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;            
-    a {
-      color: $blackish;
-      font-size: .9em;
-      font-weight: 400;
-    }
-
-  }
+  
 
   .insta {
     padding: 30px 0 0;

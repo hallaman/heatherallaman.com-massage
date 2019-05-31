@@ -32,13 +32,24 @@ h1, h2, h3 {
   padding-bottom: 10px;
 }
 
-h2 {
+h1 {
   font-family: 'Domaine', Palatino, sans-serif;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 2.5em;
   line-height: 1.5em;
   text-transform: uppercase;
   color: $purple;
+}
+
+h2 {
+  font-family: 'Verlag', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-weight: 700;
+  font-size: 1.75em;
+  line-height: 1.85em;
+  color: $green;
+  margin-top: 1em;
 }
 
 h3 {
@@ -47,8 +58,8 @@ h3 {
   letter-spacing: .15em;
   font-weight: 700;
   font-size: 1.5em;
-  line-height: 1em;
-  color: $green;
+  line-height: 1.75em;
+  color: $light-beige;
   margin-top: 1em;
 }
 
@@ -59,13 +70,33 @@ h4 {
   font-weight: 700;
   margin: 0;
   font-size: 1.5em;
-  line-height: 1em;
-  color: $white;
+  line-height: 1.5em;
+  color: $light-beige;
 }
 
 b {
-  color: $gold;
+  color: $green;
   font-weight: 800;
+}
+
+.allcaps {
+  font-family: 'Verlag', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-weight: 700;
+  line-height: 1.4em;
+  font-size: 1.2em;
+}
+
+.form-control {
+  font-family: 'Crimson', Palatino, serif;
+
+  background-color: $white;
+  color: $blackish;
+  font-size: 1.2em;
+  line-height: 1.2em;
+
+  margin: 15px auto;
 }
 
 p, ol, ul, td {
@@ -96,7 +127,7 @@ ul {
 }
 
 .border-left {
-  border-left: 3px solid $purple !important;
+  border-left: 3px solid $beige !important;
   border-top: 0;
   z-index: 1;
 }
@@ -107,8 +138,8 @@ ul {
   z-index: 1;
 }
 
-hr.gold-line {
-  border-bottom: 1px solid $gold !important;
+hr {
+  border-bottom: 1px solid $beige !important;
   opacity: .3;
   border-top: 0;
   z-index: 1;
@@ -176,8 +207,13 @@ div {
   border-radius: 0;
   padding: 12px 15px 9px;
   margin-top: 25px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Verlag', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-weight: 700;
   font-size: 1.3em;
+  line-height: 1.5em;
+  color: $white;
   border: 2px solid $white;
   width: auto;
 }
@@ -334,7 +370,7 @@ div {
     color: $gray-purple;
     border-radius: 0;
     padding: 8px 25px 5px;
-    font-family: 'MANIFESTO';
+    font-family: 'Verlag';
     font-size: .8em;
   }
 }

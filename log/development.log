@@ -7426,3 +7426,245 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_messages.html.erb (0.5ms)
   Rendered layouts/_footer.html.erb (7.7ms)
 Completed 200 OK in 1332ms (Views: 713.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 10:51:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1682.7ms)
+Completed 500 Internal Server Error in 5826ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (Autoprefixer doesn’t support Node v4.5.0. Update it.):
+    1: <div class="welcome">
+    2: 	<div id="home_header" class="col-xs-12">
+    3: 
+    4: 		<%= image_tag('laughing.jpg', style: 'visibility: hidden; width: 100%; height: auto;') %>
+    5: 		
+    6: 	</div>
+    7: 
+  app/views/welcome/index.html.erb:4:in `_app_views_welcome_index_html_erb__4364073231556498834_70148925651560'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (113.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (168.1ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 10:56:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (886.0ms)
+Completed 500 Internal Server Error in 1287ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Autoprefixer doesn’t support Node v4.5.0. Update it.):
+    1: <div class="welcome">
+    2: 	<div id="home_header" class="col-xs-12">
+    3: 
+    4: 		<%= image_tag('laughing.jpg') %>
+    5: 		
+    6: 	</div>
+    7: 
+  app/views/welcome/index.html.erb:4:in `_app_views_welcome_index_html_erb__4364073231556498834_70148948706880'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (32.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (60.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:03:52 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20468.8ms)
+  Rendered layouts/_header.html.erb (12.8ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (5.6ms)
+Completed 200 OK in 21567ms (Views: 20930.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for ::1 at 2019-05-31 11:04:14 -0500
+
+
+Started GET "/assets/application.self-7ddb0b6f6c4394e4dfcfa93cd630f75063b152788a606af3890897a9ded12cee.css?body=1" for ::1 at 2019-05-31 11:04:14 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:04:27 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (22.1ms)
+  Rendered layouts/_header.html.erb (6.4ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 1073ms (Views: 517.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:04:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 564ms (Views: 272.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:07:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (19.3ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.7ms)
+Completed 200 OK in 7760ms (Views: 7017.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-31 11:07:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (106.8ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 671ms (Views: 318.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_animations.self-0ce5c482440e752fcf6071994e05f22bbb8c9369e6b6883d8a279fb42817fc25.css?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/comments.self-9f3597632b22247cecf21d1600a2fe372a15d375415aedb8f389a6e395c3be1a.css?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/pages.self-7fbbc5c7b1a0e42ea70e8a150c675c54d24aa007303685e94a64d68658290178.css?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/heart.self-1ecb72e2e8a0cc2fec2874c2a3303bc878cd3ffd2cbd8bd3c34f7f0f91e97cbb.css?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/scaffolds.self-49ceabcdc040ef8aa4a85d1974d8138c4c2d72e9964bb3c6b7346d706b3f3e37.css?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/posts.self-59305307c16bc9bd8e5349a92c7d1c7f0438b6438685e97f51961c7d9b0b4468.css?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/application.self-82cbab60e66eea9517b1502369c5c1b4f481f6c27e5b44555c0eb354f5743e83.css?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/font-awesome.self-407fb3615be540a148636cc5d171903af160c86d0eaf12321feadbd280e334c3.css?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/rails_bootstrap_forms.self-10cb7d2aef696c4062f219f6678eed1d57c254a6717cea25d021726a4b9a214c.css?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/summernote/index.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/latest_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/moon_vibe_guide.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/newsbars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/post_likes.self-8edf7e2a57a64f8cc23f8d4ee877cf28f6eb2dbcc56ac93b8bf7c1ed20063f21.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/testimonials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/topic_likes.self-3775982a35374c5d623657dc9a703d48f2d341dfc5acfa94f9b16d879dff4fe8.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/videos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/assets/application.self-7c44b34571f9c6f50024ec815db695a00182b9937b48d97c4ac1515ab6b385a0.js?body=1" for ::1 at 2019-05-31 11:07:59 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:08:24 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (75.0ms)
+Completed 200 OK in 6433ms (Views: 5375.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-25a2e46f5344c85dec9d97668a4c74396ea6d8261abc357f712b12c373d3c831.css?body=1" for ::1 at 2019-05-31 11:08:31 -0500
+
+
+Started GET "/assets/application.self-7bffff96ca9692d6f9a7965989b95f895c581af2d2198d2d2e88f849e46e98c1.css?body=1" for ::1 at 2019-05-31 11:08:31 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:08:39 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.9ms)
+Completed 200 OK in 4827ms (Views: 4515.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-86fad6162eb168ce5a22fd4560a657846b7c3152be66209770122723f0558bfc.css?body=1" for ::1 at 2019-05-31 11:08:44 -0500
+
+
+Started GET "/assets/application.self-e8cc26214f86617e2e2277e172a28a21c1d9f304bd80a0246c76466ba7aef352.css?body=1" for ::1 at 2019-05-31 11:08:44 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:08:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (71.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 5485ms (Views: 4781.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-1293562c331f7818a11a1b3e534404882366f2146d796735fd03b992a4ad5e4c.css?body=1" for ::1 at 2019-05-31 11:09:01 -0500
+
+
+Started GET "/assets/application.self-040b1b4923efaf249d05092dc367f11dd4a2ccb78717e81d42c0f999828e1466.css?body=1" for ::1 at 2019-05-31 11:09:01 -0500
+
+
+Started GET "/" for ::1 at 2019-05-31 11:09:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (74.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 4501ms (Views: 4241.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-abc302150b0490c1e5d8ebdb6df856dbfc1d8b6f12cf9f5b9160155ef216c380.css?body=1" for ::1 at 2019-05-31 11:09:24 -0500
+
+
+Started GET "/assets/application.self-31a5b5d6977f0f7fc17bb43a4be70b3b963f81b4421da351ece0cbbc8b0ce11f.css?body=1" for ::1 at 2019-05-31 11:09:24 -0500

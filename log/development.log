@@ -8511,3 +8511,304 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_messages.html.erb (0.7ms)
   Rendered layouts/_footer.html.erb (4.4ms)
 Completed 200 OK in 433ms (Views: 423.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:06:15 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (19.3ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (11.0ms)
+Completed 200 OK in 5361ms (Views: 5351.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-0880cb60593ac47bc4d7a7a04b32dd36509d2960eaf6c57a2891385f894ee4f0.css?body=1" for ::1 at 2019-05-31 12:06:20 -0500
+
+
+Started GET "/assets/application.self-4d2da5bda0116c06e7f56dc3cefefb9ed2cbff42acfdbef0f032824e18d134e5.css?body=1" for ::1 at 2019-05-31 12:06:20 -0500
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:06:26 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 4382ms (Views: 4380.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-65fed8fdbbcfe09b16c20a5a25297938f4bd62f7124a1efb7609eb641e938b5c.css?body=1" for ::1 at 2019-05-31 12:06:31 -0500
+
+
+Started GET "/assets/application.self-0fa4ad5d1f937f82e4305c783097a0a17cecab0534c22f873ef4140d5fa94c71.css?body=1" for ::1 at 2019-05-31 12:06:31 -0500
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:06:34 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 4165ms (Views: 4164.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-033585369cbfe8a94fe2cfefe96cc11b984d09af57ec5d2ec488be231b555407.css?body=1" for ::1 at 2019-05-31 12:06:39 -0500
+
+
+Started GET "/assets/application.self-b23d2c038cd5fc44d39e5836b583872b0e020570928a94313fca7f27ac3531e6.css?body=1" for ::1 at 2019-05-31 12:06:39 -0500
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:06:43 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 3850ms (Views: 3849.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-78bd76af85f3be960b220c7c8c5f13fafaf676855bedcc34aa95b94bdb5ad8e7.css?body=1" for ::1 at 2019-05-31 12:06:47 -0500
+
+
+Started GET "/assets/application.self-6f5f6b860a3ef8d27c5573ad20e72c2d7657235811d92bf12f104a4d20f22c5e.css?body=1" for ::1 at 2019-05-31 12:06:47 -0500
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:06:56 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 3923ms (Views: 3922.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-4b47abf04a8387bef7220d2f443790f9acc10ab80fd0d507dd53898b6e4f41dd.css?body=1" for ::1 at 2019-05-31 12:07:00 -0500
+
+
+Started GET "/assets/application.self-957646bcbc32564703855476bd6238907b6f6c70d1bc81c47c26e029933eca0d.css?body=1" for ::1 at 2019-05-31 12:07:00 -0500
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:07:59 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (24.2ms)
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 471ms (Views: 460.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:08:16 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (5.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 306ms (Views: 304.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:08:43 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (5.0ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (214.1ms)
+  Rendered layouts/_header.html.erb (8.9ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 548ms (Views: 531.1ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:09:15 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (3.0ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (21.9ms)
+  Rendered layouts/_header.html.erb (5.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 462ms (Views: 445.6ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:09:40 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.5ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (31.1ms)
+  Rendered layouts/_header.html.erb (10.7ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 317ms (Views: 311.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:10:06 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (13.9ms)
+  Rendered layouts/_header.html.erb (6.1ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 278ms (Views: 276.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:10:14 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 297ms (Views: 296.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:10:29 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.9ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 286ms (Views: 284.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:10:43 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (11.8ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 450ms (Views: 447.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:11:01 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 277ms (Views: 275.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:11:22 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.6ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (16.3ms)
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 270ms (Views: 268.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:11:50 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.4ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (14.7ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 276ms (Views: 275.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:12:00 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (20.2ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.9ms)
+Completed 200 OK in 617ms (Views: 616.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:12:19 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (2.8ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (24.2ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 316ms (Views: 303.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:13:01 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (1.0ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (39.1ms)
+  Rendered layouts/_header.html.erb (8.9ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 480ms (Views: 470.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:13:23 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (15.4ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 309ms (Views: 308.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:14:43 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.3ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (16.1ms)
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 420ms (Views: 418.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:15:01 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.3ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 471ms (Views: 469.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:15:58 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.9ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (45.6ms)
+  Rendered layouts/_header.html.erb (9.5ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (8.6ms)
+Completed 200 OK in 499ms (Views: 486.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-05-31 12:17:08 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.7ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (40.0ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (8.0ms)
+Completed 200 OK in 5493ms (Views: 5480.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/welcome.self-97fcd887bc7f58cd85a05dd5a8bdc57c2619c31ffc4eed15d034415fb3fdf0b0.css?body=1" for ::1 at 2019-05-31 12:17:14 -0500

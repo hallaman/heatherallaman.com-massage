@@ -139,8 +139,10 @@
     color: $white;
   }
 
-  .sig {
-    text-transform: uppercase;
+  p {
+    font-size: 1.2em;
+    line-height: 2em;
+    letter-spacing: .05em;
   }
 }
 

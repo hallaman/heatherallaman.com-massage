@@ -74,7 +74,6 @@
 
 						<h2 class="text-left" id="about-work">ABOUT MY WORK</h2>
 						<p>The body is a blueprint of all experiences and emotions, sometimes leaving a physical mark. Much of my work revolves around breath, opening myofascial adhesions and <b>Craniosacral therapy</b>, a technique for balancing the flow of cerebral spinal fluid that protects your central nervous system.</p>
-						<br /><br />
 					</div>
 
 
@@ -97,7 +96,45 @@
 	</div>
 
 
+	<div class="col-xs-12 testimonials">
+		<div class="container-fluid">
+			<div class="row">	
 
+				<div class="entry col-xs-12 col-sm-6 text-right pull-right">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+					  	 <%= @testimonials.each_with_index do |testimonial, index| %>
+
+					  	 	<% if index == 0 %>
+				          <div class="item active">
+				       	<% else %>
+									<div class="item">
+				       	<% end %>
+
+										<div class="col-xs-12">
+											<div style="float: left; padding-right: 20px;">
+												<h3>WHAT CLIENTS HAVE TO SAY...</h3>
+			          				<div class="thumbnail align-center" style="max-width: 250px;">
+													<%#= image_tag testimonial.image %>
+												</div>	
+												<p><%= strip_tags(testimonial.body) %></p>
+											</div>	
+			          											  
+			          		</div>
+				          </div>
+				      	<% end %>
+							</div>
+						</div>
+						<!-- end wrapper for slides --> 
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
 
 
 	<div class="col-xs-12">
@@ -125,6 +162,8 @@
 		</div>
 	</div>	
 
+	
+
 	<div class="col-xs-12 work-header">
 		<div class="container-fluid">
 				
@@ -133,7 +172,7 @@
 					<h4>Would you like to receive emails from Heather?</h4>
 
 					<form action="https://heatherallaman.us18.list-manage.com/subscribe/post?u=8ba3dcd6c24c0579fe11e8625&amp;id=d59e0357c7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<br /><br />
+						<br />
 					    <input type="email" class="form-control" name="EMAIL" i aria-describedby="emailHelp" placeholder="email address" required style="max-width: 400px; margin: auto;">
 					    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 					    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8ba3dcd6c24c0579fe11e8625_d59e0357c7" tabindex="-1" value=""></div>

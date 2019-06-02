@@ -8945,3 +8945,51 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_messages.html.erb (0.2ms)
   Rendered layouts/_footer.html.erb (4.1ms)
 Completed 200 OK in 644ms (Views: 625.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2019-06-01 23:59:47 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.9ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (55.7ms)
+  Rendered layouts/_header.html.erb (5.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 6667ms (Views: 6653.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/scaffolds.self-9bee1d3639e48855e515d3425d0083767a095c51cffa1dc469aa29ff38d5336b.css?body=1" for ::1 at 2019-06-01 23:59:54 -0500
+
+
+Started GET "/assets/application.self-f002525155a915c15f863b313e94a1d635bd7fb3417324eed533e264fe67c9a5.css?body=1" for ::1 at 2019-06-01 23:59:54 -0500
+
+
+Started GET "/" for ::1 at 2019-06-02 00:00:17 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (1.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (34.2ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.1ms)
+Completed 200 OK in 5757ms (Views: 5741.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/scaffolds.self-c74576985dfa039cc4acad546f4638291a0c93746f78beedf0c38f5b85852fea.css?body=1" for ::1 at 2019-06-02 00:00:23 -0500
+
+
+Started GET "/assets/application.self-c320d10f546ef0423f6848e5baff83251fbc07c367f63bc6a2f127b6d20a58d2.css?body=1" for ::1 at 2019-06-02 00:00:23 -0500
+
+
+Started GET "/" for ::1 at 2019-06-02 00:00:31 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (5.4ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (21.6ms)
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (3.9ms)
+Completed 200 OK in 5359ms (Views: 5352.1ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/scaffolds.self-c45a6e4220b1ef5a5345e753e7606fc77e214dd80758effd40a7c8cdde164a24.css?body=1" for ::1 at 2019-06-02 00:00:37 -0500
+
+
+Started GET "/assets/application.self-0679dcb38306f16630f67bba9e53b7b570fe80f22965a4991c06f31d3f97e18b.css?body=1" for ::1 at 2019-06-02 00:00:37 -0500

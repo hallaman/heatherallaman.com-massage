@@ -100,11 +100,6 @@ b {
   margin: 15px auto;
 }
 
-p, ol, ul, td {
-  line-height: 2em;
-  font-size: 1.4em;
-}
-
 a {
   color: $gold;
 
@@ -382,10 +377,13 @@ div {
 
 .nav > li > a,
 .dropdown-menu > li > a {
-  font-size: .85em;
   text-transform: capitalize;
-  font-weight: 400;
-  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Verlag', Arial, sans-serif;
+  letter-spacing: .15em;
+  font-weight: 700;
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.2em;
 }
 
 .nav > li > a:hover, 

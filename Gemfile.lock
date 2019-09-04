@@ -990,7 +990,7 @@ DEPENDENCIES
   autoprefixer-rails
   aws-sdk
   backport_new_renderer
-  bootstrap-sass
+  bootstrap-sass (~> 3.3.6)
   bootstrap_form
   byebug
   closure_tree

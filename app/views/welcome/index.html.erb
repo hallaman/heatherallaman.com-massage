@@ -25,9 +25,11 @@
 							<b class="allcaps">CALL 615.521.3644</b>-->
 
 							<br /><hr /><br />
-							<h4>$100 ......60 min</h4>
-							<h4>$150 ..... 90 min</h4>
-							<%= link_to "BOOK A SESSION", "mailto:heather.allaman@gmail.com", class: "btn btn-default ha-btn" %>
+							<h4>$95 ......60 min</h4>
+							<h4>$135 ..... 90 min</h4>
+							<%= link_to "BOOK A SESSION", "https://square.site/book/4ZNHPXMAV3K91/heather-allaman", class: "btn btn-default ha-btn" %>
+
+
 							<p>&nbsp;</p>
 
 
@@ -109,9 +111,9 @@
 					  	 <%= @testimonials.each_with_index do |testimonial, index| %>
 
 					  	 	<% if index == 0 %>
-				          <div class="item active">
+				          <div class="carousel-item item active">
 				       	<% else %>
-									<div class="item">
+									<div class="carousel-item item">
 				       	<% end %>
 
 										<div class="col-xs-12">
@@ -121,18 +123,16 @@
 														<%= testimonial.title %>
 													</h2>
 												<p><%= sanitize(testimonial.body) %></p>
-			          				<div class="thumbnail align-center" style="max-width: 250px;">
-													<%#= image_tag testimonial.image %>
-												</div>	
-												
 											</div>	
-			          											  
 			          		</div>
 				          </div>
+
 				      	<% end %>
 							</div>
+
 						</div>
 						<!-- end wrapper for slides --> 
+
 					</div>
 				</div>
 

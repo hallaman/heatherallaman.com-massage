@@ -9313,3 +9313,1081 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_messages.html.erb (0.1ms)
   Rendered layouts/_footer.html.erb (4.2ms)
 Completed 200 OK in 445ms (Views: 430.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 09:44:45 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.8ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (23911.2ms)
+  Rendered layouts/_header.html.erb (11.9ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (6.7ms)
+Completed 200 OK in 24576ms (Views: 24506.8ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/_animations.self-0ce5c482440e752fcf6071994e05f22bbb8c9369e6b6883d8a279fb42817fc25.css?body=1" for ::1 at 2019-10-02 09:45:10 -0500
+
+
+Started GET "/assets/_colors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2019-10-02 09:45:10 -0500
+
+
+Started GET "/assets/_custom.self-eaedfad62896b5429eeaf699bd0093b4ea28cafbb2061f9e975276c5f28a0e73.css?body=1" for ::1 at 2019-10-02 09:45:10 -0500
+
+
+Started GET "/assets/_responsive_tabs.self-a09bc8ebaf3557f0cecd2a12a930b8fe6fbbf1b835e02c5cffd413a8adc80b36.css?body=1" for ::1 at 2019-10-02 09:45:10 -0500
+
+
+Started GET "/assets/comments.self-9f3597632b22247cecf21d1600a2fe372a15d375415aedb8f389a6e395c3be1a.css?body=1" for ::1 at 2019-10-02 09:45:10 -0500
+
+
+Started GET "/assets/fa_qs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2019-10-02 09:45:10 -0500
+
+
+Started GET "/assets/heart.self-1ecb72e2e8a0cc2fec2874c2a3303bc878cd3ffd2cbd8bd3c34f7f0f91e97cbb.css?body=1" for ::1 at 2019-10-02 09:45:10 -0500
+
+
+Started GET "/assets/pages.self-7fbbc5c7b1a0e42ea70e8a150c675c54d24aa007303685e94a64d68658290178.css?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/posts.self-59305307c16bc9bd8e5349a92c7d1c7f0438b6438685e97f51961c7d9b0b4468.css?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/scaffolds.self-c45a6e4220b1ef5a5345e753e7606fc77e214dd80758effd40a7c8cdde164a24.css?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/welcome.self-97fcd887bc7f58cd85a05dd5a8bdc57c2619c31ffc4eed15d034415fb3fdf0b0.css?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/application.self-0679dcb38306f16630f67bba9e53b7b570fe80f22965a4991c06f31d3f97e18b.css?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/font-awesome.self-407fb3615be540a148636cc5d171903af160c86d0eaf12321feadbd280e334c3.css?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/summernote/summernote.self-705c5e982342fd840034552f46a01606e6b310b393359cd69a6254d59623d5f3.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/summernote/index.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/blog.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/issues.self-835cf3ebb3ed6bd13be3685af6275296ff23de92127972546432636ef6486497.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/latest_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/moon_vibe_guide.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/newsbars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/post_likes.self-8edf7e2a57a64f8cc23f8d4ee877cf28f6eb2dbcc56ac93b8bf7c1ed20063f21.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/posts.self-3de9385e5c7f03f7baebdff3a8c105c31b5a605b97722d386a10c05bcbfb428f.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/testimonials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/topic_likes.self-3775982a35374c5d623657dc9a703d48f2d341dfc5acfa94f9b16d879dff4fe8.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/videos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/application.self-7c44b34571f9c6f50024ec815db695a00182b9937b48d97c4ac1515ab6b385a0.js?body=1" for ::1 at 2019-10-02 09:45:11 -0500
+
+
+Started GET "/assets/images/favicon.ico" for ::1 at 2019-10-02 09:45:12 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (63.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (151.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (148.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (196.7ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 09:50:55 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.9ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (45.9ms)
+  Rendered layouts/_header.html.erb (6.1ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (4.7ms)
+Completed 200 OK in 705ms (Views: 690.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 09:51:00 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.4ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 143ms (Views: 141.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 09:51:11 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.7ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (23.1ms)
+  Rendered layouts/_header.html.erb (5.7ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 204ms (Views: 194.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 09:51:26 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (14.3ms)
+  Rendered layouts/_header.html.erb (6.7ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (5.0ms)
+Completed 200 OK in 289ms (Views: 287.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 09:51:30 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 202ms (Views: 200.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 09:51:39 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.6ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (23.7ms)
+  Rendered layouts/_header.html.erb (7.1ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 224ms (Views: 214.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 09:52:23 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (13.6ms)[0m  [1mSELECT "testimonials".* FROM "testimonials"[0m
+  Rendered welcome/index.html.erb within layouts/application (52.8ms)
+  Rendered layouts/_header.html.erb (8.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 435ms (Views: 412.8ms | ActiveRecord: 14.5ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 09:54:56 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.4ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (33.0ms)
+  Rendered layouts/_header.html.erb (5.7ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (5.5ms)
+Completed 200 OK in 389ms (Views: 370.1ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 09:57:07 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (1.0ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (34.7ms)
+  Rendered layouts/_header.html.erb (8.5ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 449ms (Views: 439.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 10:03:38 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.0ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (51.0ms)
+Completed 500 Internal Server Error in 2475ms (ActiveRecord: 2.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: slick.
+Load paths:
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/fonts
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/images
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/javascripts
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/stylesheets
+  /Users/heatherallaman/Sites/heatherallaman/vendor/assets/javascripts
+  /Users/heatherallaman/Sites/heatherallaman/vendor/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap_form-2.7.0/app/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/jquery-turbolinks-2.1.0/vendor/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /app/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/images
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/stylesheets):
+    3: <head>
+    4:   
+    5:   <title>Heather Allaman</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag    'application', media: 'print', 'data-turbolinks-track' => true %>
+    8: 
+    9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  app/assets/stylesheets/application.scss:53
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2210512517425403416_70126431994380'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (86.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (133.2ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 10:04:07 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (1.0ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (34.0ms)
+Completed 500 Internal Server Error in 1875ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: slick.
+Load paths:
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/fonts
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/images
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/javascripts
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/stylesheets
+  /Users/heatherallaman/Sites/heatherallaman/vendor/assets/javascripts
+  /Users/heatherallaman/Sites/heatherallaman/vendor/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap_form-2.7.0/app/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/jquery-turbolinks-2.1.0/vendor/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /app/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/images
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/stylesheets):
+    3: <head>
+    4:   
+    5:   <title>Heather Allaman</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag    'application', media: 'print', 'data-turbolinks-track' => true %>
+    8: 
+    9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  app/assets/stylesheets/application.scss:53
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2210512517425403416_70126431994380'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (64.7ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 10:04:34 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.8ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (33.0ms)
+Completed 500 Internal Server Error in 5923ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (couldn't find file 'jquery.slick' with type 'application/javascript'
+Checked in these paths: 
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/fonts
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/images
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/javascripts
+  /Users/heatherallaman/Sites/heatherallaman/app/assets/stylesheets
+  /Users/heatherallaman/Sites/heatherallaman/vendor/assets/javascripts
+  /Users/heatherallaman/Sites/heatherallaman/vendor/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap_form-2.7.0/app/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/jquery-turbolinks-2.1.0/vendor/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /app/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.3.7/assets/images
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/summernote-rails-0.8.2.0/vendor/assets/fonts):
+     6:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     7:   <%= stylesheet_link_tag    'application', media: 'print', 'data-turbolinks-track' => true %>
+     8: 
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: 
+    12: 
+  app/assets/javascripts/application.js:23
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2210512517425403416_70126431994380'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (69.7ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 10:05:10 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (2.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (54.8ms)
+  Rendered layouts/_header.html.erb (9.6ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (6.5ms)
+Completed 200 OK in 646ms (Views: 634.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.self-b5567fb0cb73f9d4ecd4fa178bbc995d9efe2b53da5e5bf4ca587adb307de5b1.js?body=1" for ::1 at 2019-10-02 10:05:11 -0500
+
+
+Started GET "/" for ::1 at 2019-10-02 10:05:22 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (25.4ms)
+  Rendered layouts/_header.html.erb (9.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 445ms (Views: 443.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 10:07:12 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (1.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (62.6ms)
+  Rendered layouts/_header.html.erb (10.0ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 604ms (Views: 593.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 10:09:27 -0500
+Processing by WelcomeController#index as HTML
+  [1m[35mTestimonial Load (2.6ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (46.1ms)
+  Rendered layouts/_header.html.erb (6.8ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (5.5ms)
+Completed 200 OK in 857ms (Views: 846.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for ::1 at 2019-10-02 10:11:16 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mTestimonial Load (0.7ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (43.0ms)
+  Rendered layouts/_header.html.erb (9.5ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 506ms (Views: 497.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin" for ::1 at 2019-10-02 10:11:34 -0500
+Processing by Admins::SessionsController#new as HTML
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/shared/_links.html.erb (1.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application (85.6ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (4.9ms)
+Completed 200 OK in 456ms (Views: 404.8ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/admin?locale=en" for ::1 at 2019-10-02 10:11:36 -0500
+Processing by Admins::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/55OtxocJtjPurbJJX2J4KhYeFfT2n1ahNncap4eVk2drjL8EQoGjlGFxQWE8JLm4aK9Kn1xzwYgnENtDL7iOA==", "admin"=>{"email"=>"heather.allaman@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[35mAdmin Load (3.7ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."email" = ?  ORDER BY "admins"."id" ASC LIMIT 1  [["email", "heather.allaman@gmail.com"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "admins" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admins"."id" = ?  [["last_sign_in_at", "2019-06-06 02:22:12.515160"], ["current_sign_in_at", "2019-10-02 15:11:37.153155"], ["sign_in_count", 3], ["updated_at", "2019-10-02 15:11:37.155573"], ["id", 1]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/?locale=en
+Completed 302 Found in 211ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/?locale=en" for ::1 at 2019-10-02 10:11:37 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (10.2ms)
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (6.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 186ms (Views: 184.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin" for ::1 at 2019-10-02 10:11:42 -0500
+Processing by Admins::SessionsController#new as HTML
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/?locale=en
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/?locale=en" for ::1 at 2019-10-02 10:11:42 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.5ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (7.0ms)
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 152ms (Views: 149.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/home?locale=en" for ::1 at 2019-10-02 10:11:48 -0500
+Processing by AdminHomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered admin_home/_testimonials.html.erb (5.0ms)
+  Rendered admin_home/index.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 147ms (Views: 141.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/assets/images/favicon.ico" for ::1 at 2019-10-02 10:11:48 -0500
+
+ActionController::RoutingError (No route matches [GET] "/admin/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (207.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (77.2ms)
+
+
+Started GET "/admin/assets/images/favicon.ico" for ::1 at 2019-10-02 10:11:49 -0500
+
+ActionController::RoutingError (No route matches [GET] "/admin/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.9ms)
+
+
+Started GET "/testimonials/2/edit?locale=en" for ::1 at 2019-10-02 10:11:52 -0500
+Processing by TestimonialsController#edit as HTML
+  Parameters: {"locale"=>"en", "id"=>"2"}
+  [1m[36mTestimonial Load (2.9ms)[0m  [1mSELECT  "testimonials".* FROM "testimonials" WHERE "testimonials"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered testimonials/_form.html.erb (224.9ms)
+  Rendered testimonials/edit.html.erb within layouts/application (229.5ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 370ms (Views: 355.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/testimonials/2/assets/images/favicon.ico" for ::1 at 2019-10-02 10:11:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/testimonials/2/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (43.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.2ms)
+
+
+Started GET "/testimonials/2/assets/images/favicon.ico" for ::1 at 2019-10-02 10:11:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/testimonials/2/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.2ms)
+
+
+Started PATCH "/testimonials/2?locale=en" for ::1 at 2019-10-02 10:12:12 -0500
+Processing by TestimonialsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VSzttvfbbpfsV117v46eCZreYztOtiw+NPc2CuhmYoshF2C10wRzVN0SVe5WVPHHlAz+7HozxRHnBskPdtaoRw==", "testimonial"=>{"title"=>"hi", "body"=>"<p>\r\n\r\n\r\n\r\n\r\n<style type=\"text/css\">\r\np.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px Helvetica; -webkit-text-stroke: #000000}\r\nspan.s1 {font-kerning: none}\r\n</style>\r\n\r\n\r\n</p><p class=\"p1\"><span class=\"s1\">I've been lucky enough to have met with Heather for a variety of therapies in every trimester of my pregnancy. I've&nbsp;seen benefits across the board for specific issues/ problems I've experienced over the last 9 months. In my first trimester, I had extreme lower back pain due to spending many evenings hunched over on a cold floor. Just having my back, shoulders and neck worked on was extremely effective in relieving that tension and helping me feel less tight overall. In to my second trimester, we tried some massage and Craniosacral therapy focusing on my hips and near my belly. As I started feeling the effects of the increased relaxin hormone in my body, having Heather focus in on areas of pain felt fantastic and anytime she focused energy near my belly, my daughter would kick -- which was a really great experience. I felt like my daughter was getting benefits from this touch as well. I could really feel the positive effects of the massage for days after my appointments. I slept better, had less specific pain-points and was overall more positive because my body simply felt better. &nbsp;I am so grateful to have been able to see her so often and am not sure how I would have made it to 9 months without her help.</span></p>", "show"=>"1"}, "commit"=>"Update Testimonial", "locale"=>"en", "id"=>"2"}
+  [1m[36mTestimonial Load (0.9ms)[0m  [1mSELECT  "testimonials".* FROM "testimonials" WHERE "testimonials"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/testimonials/2?locale=en
+Completed 302 Found in 33ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/testimonials/2?locale=en" for ::1 at 2019-10-02 10:12:13 -0500
+Processing by TestimonialsController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"2"}
+  [1m[36mTestimonial Load (0.1ms)[0m  [1mSELECT  "testimonials".* FROM "testimonials" WHERE "testimonials"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mAdmin Load (0.4ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered testimonials/show.html.erb within layouts/application (10.7ms)
+  Rendered layouts/_header.html.erb (7.3ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 342ms (Views: 339.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/testimonials/assets/images/favicon.ico" for ::1 at 2019-10-02 10:12:13 -0500
+
+ActionController::RoutingError (No route matches [GET] "/testimonials/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (54.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (27.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (51.6ms)
+
+
+Started GET "/?locale=en" for ::1 at 2019-10-02 10:12:15 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (14.9ms)
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (4.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 155ms (Views: 153.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/?locale=en" for ::1 at 2019-10-02 10:12:18 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTestimonial Load (0.2ms)[0m  [1mSELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?[0m  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (4.6ms)
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 125ms (Views: 123.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/home?locale=en" for ::1 at 2019-10-02 10:12:27 -0500
+Processing by AdminHomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered admin_home/_testimonials.html.erb (2.7ms)
+  Rendered admin_home/index.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 243ms (Views: 240.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/testimonials/2/edit?locale=en" for ::1 at 2019-10-02 10:12:29 -0500
+Processing by TestimonialsController#edit as HTML
+  Parameters: {"locale"=>"en", "id"=>"2"}
+  [1m[36mTestimonial Load (0.1ms)[0m  [1mSELECT  "testimonials".* FROM "testimonials" WHERE "testimonials"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered testimonials/_form.html.erb (12.1ms)
+  Rendered testimonials/edit.html.erb within layouts/application (15.9ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 139ms (Views: 136.6ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/testimonials/2?locale=en" for ::1 at 2019-10-02 10:12:53 -0500
+Processing by TestimonialsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4fRzSKChrX+mr/qbL541sCJn+gum29ZWDfziG1TCQbKVz/5LhH6wvJfq8g7GRFp+LLVn3JJeP3neDR0eynKLfg==", "testimonial"=>{"title"=>"hi", "body"=>"I've been lucky enough to have met with Heather for a variety of therapies in every trimester of my pregnancy. I've&nbsp;seen benefits across the board for specific issues/ problems I've experienced over the last 9 months. In my first trimester, I had extreme lower back pain due to spending many evenings hunched over on a cold floor. Just having my back, shoulders and neck worked on was extremely effective in relieving that tension and helping me feel less tight overall. In to my second trimester, we tried some massage and Craniosacral therapy focusing on my hips and near my belly. As I started feeling the effects of the increased relaxin hormone in my body, having Heather focus in on areas of pain felt fantastic and anytime she focused energy near my belly, my daughter would kick -- which was a really great experience. I felt like my daughter was getting benefits from this touch as well. I could really feel the positive effects of the massage for days after my appointments. I slept better, had less specific pain-points and was overall more positive because my body simply felt better. &nbsp;I am so grateful to have been able to see her so often and am not sure how I would have made it to 9 months without her help.", "show"=>"1"}, "commit"=>"Update Testimonial", "locale"=>"en", "id"=>"2"}
+  [1m[36mTestimonial Load (0.8ms)[0m  [1mSELECT  "testimonials".* FROM "testimonials" WHERE "testimonials"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.9ms)[0m  UPDATE "testimonials" SET "body" = ?, "updated_at" = ? WHERE "testimonials"."id" = ?  [["body", "I've been lucky enough to have met with Heather for a variety of therapies in every trimester of my pregnancy. I've&nbsp;seen benefits across the board for specific issues/ problems I've experienced over the last 9 months. In my first trimester, I had extreme lower back pain due to spending many evenings hunched over on a cold floor. Just having my back, shoulders and neck worked on was extremely effective in relieving that tension and helping me feel less tight overall. In to my second trimester, we tried some massage and Craniosacral therapy focusing on my hips and near my belly. As I started feeling the effects of the increased relaxin hormone in my body, having Heather focus in on areas of pain felt fantastic and anytime she focused energy near my belly, my daughter would kick -- which was a really great experience. I felt like my daughter was getting benefits from this touch as well. I could really feel the positive effects of the massage for days after my appointments. I slept better, had less specific pain-points and was overall more positive because my body simply felt better. &nbsp;I am so grateful to have been able to see her so often and am not sure how I would have made it to 9 months without her help."], ["updated_at", "2019-10-02 15:12:53.855046"], ["id", 2]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testimonials/2?locale=en
+Completed 302 Found in 52ms (ActiveRecord: 6.8ms)
+
+
+Started GET "/testimonials/2?locale=en" for ::1 at 2019-10-02 10:12:53 -0500
+Processing by TestimonialsController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"2"}
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT  "testimonials".* FROM "testimonials" WHERE "testimonials"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered testimonials/show.html.erb within layouts/application (22.4ms)
+  Rendered layouts/_header.html.erb (8.1ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (5.9ms)
+Completed 200 OK in 369ms (Views: 365.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/?locale=en" for ::1 at 2019-10-02 10:12:56 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (18.0ms)
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 152ms (Views: 151.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/?locale=en" for ::1 at 2019-10-02 10:12:57 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.2ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (4.8ms)
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 157ms (Views: 156.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/?locale=en" for ::1 at 2019-10-02 10:17:21 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (1.1ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (45.3ms)
+  [1m[36mAdmin Load (0.4ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (16.0ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (4.3ms)
+Completed 200 OK in 460ms (Views: 448.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/?locale=en" for ::1 at 2019-10-02 10:35:27 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (3.8ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (116.5ms)
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (8.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (4.5ms)
+Completed 200 OK in 1106ms (Views: 1093.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/?locale=en" for ::1 at 2019-10-02 10:38:30 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (3.7ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (45.3ms)
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (3.6ms)
+Completed 200 OK in 544ms (Views: 531.3ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-10-02 10:38:40 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (0.1ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (9.1ms)
+  [1m[36mAdmin Load (1.2ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (13.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (12.5ms)
+Completed 200 OK in 300ms (Views: 297.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/welcome/assets/images/favicon.ico" for ::1 at 2019-10-02 10:38:40 -0500
+
+ActionController::RoutingError (No route matches [GET] "/welcome/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.2ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.7ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (115.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (72.8ms)
+
+
+Started GET "/welcome/assets/images/favicon.ico" for ::1 at 2019-10-02 10:38:41 -0500
+
+ActionController::RoutingError (No route matches [GET] "/welcome/assets/images/favicon.ico"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  rack (1.6.11) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.11) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+  /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.0ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heatherallaman/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.3ms)
+
+
+Started GET "/welcome/index?locale=en" for ::1 at 2019-10-02 10:39:17 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTestimonial Load (3.1ms)[0m  SELECT "testimonials".* FROM "testimonials" WHERE "testimonials"."show" = ?  [["show", "t"]]
+  Rendered welcome/index.html.erb within layouts/application (49.4ms)
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ?  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (15.3ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 429ms (Views: 416.5ms | ActiveRecord: 3.4ms)

@@ -39,10 +39,10 @@ gem "autoprefixer-rails"
 gem "letter_opener", group: :development
 
 # Get member info from MailChimp
-#gem 'mailchimp-api', require: 'mailchimp'
+gem 'mailchimp-api', require: 'mailchimp'
 
 # Gibbon is the MailChimp API wrapper
-#gem 'gibbon', '~> 2.2.4'
+gem 'gibbon', '~> 2.2.4'
 
 # Paperclip for uploading images
 gem 'paperclip', :git=> 'https://github.com/thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
@@ -63,9 +63,9 @@ gem 'closure_tree'
 # like button for comments
 #gem 'acts_as_votable', '~> 0.10.0'
 
-#gem 'instagram'
+gem 'instagram'
 
-#gem 'social_shares'
+gem 'social_shares'
 
 # gem 'thredded', '~> 0.11.0'
 
@@ -80,8 +80,6 @@ gem 'backport_new_renderer'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
-gem "jquery-slick-rails"
 
 group :production, :staging do
   gem 'pg', '~> 0.11'

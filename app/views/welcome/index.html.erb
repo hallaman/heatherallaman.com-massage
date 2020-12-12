@@ -115,7 +115,7 @@
 												<h2 style="padding: 15px 0 0 0; text-align: center;">
 														<%= testimonial.title %>
 													</h2>
-												<p><%= testimonial.body.html %></p>
+												<p><%= sanitize(testimonial.body) %></p>
 											</div>
 			          		</div>
 				          </div>

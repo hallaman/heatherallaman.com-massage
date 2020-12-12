@@ -12,15 +12,15 @@
 				<div class="row">
 
 					<div class="entry col-xs-12 col-md-3 text-left">
-						<h1>PRICING</h1>
+						<h1>ABOUT THE WORK</h1>
 					</div>
 
 					<div class="entry col-xs-12 col-md-9 text-right border-left">
 						<div class="text-left bodywork">
 
-							<h4>$95 ......60 min</h4>
-							<h4>$135 ..... 90 min</h4>
-							<%= link_to "BOOK A SESSION", "https://square.site/book/4ZNHPXMAV3K91/heather-allaman", class: "btn btn-default ha-btn" %>
+							<!-- <h4>$95 ......60 min</h4>
+							<h4>$135 ..... 90 min</h4> -->
+							<%#= link_to "BOOK A SESSION", "https://square.site/book/4ZNHPXMAV3K91/heather-allaman", class: "btn btn-default ha-btn" %>
 
 
 							<p>&nbsp;</p>
@@ -48,6 +48,9 @@
 				<h4 class="text-center">Are you ready to feel better and hear the wisdom of your body?</h4>
 
 				<div class="entry text-center button">
+
+					<%#= link_to "BOOK AN APPOINTMENT", "https://squareup.com/appointments/book/4ZNHPXMAV3K91/heather-allaman-nashville-tn", class: "btn btn-default ha-btn" %>
+
 				</div>
 
 
@@ -108,11 +111,11 @@
 
 										<div class="col-xs-12">
 											<div style="float: left; padding-right: 20px;">
-												<h3>CLIENTS</h3>
+												<h3>WHAT CLIENTS HAVE TO SAY...</h3>
 												<h2 style="padding: 15px 0 0 0; text-align: center;">
 														<%= testimonial.title %>
 													</h2>
-												<p><%= testimonial.body %></p>
+												<p><%= sanitize(testimonial.body) %></p>
 											</div>
 			          		</div>
 				          </div>
@@ -145,7 +148,7 @@
 					<h2>ABOUT ME</h4>
 					<p>As I continuously refine my ability to bring myself home, I want to help you find compassion and connection - qualities that are abundant within us all. I want to help you feel the love that is abundant and universal. I hold a safe space that allows you to feel your emotions in a way that gives you more information and a step up in opening up to a more whole version of yourself. </p>
 
-					<p>My own journey has ushered me in overcoming anxiety and opening to who I am in my heart - an intuitive and healing person. After studying computer science, I became a web developer in corporate environments, while teaching yoga on the side. 10 years later, I felt I no longer fit into that role and couldn't ignore my desire to develop my intution on a deeper level.</p>
+					<!-- <p>My own journey has ushered me in overcoming anxiety and opening to who I am in my heart - an intuitive and healing person. After studying computer science, I became a web developer in corporate environments, while teaching yoga on the side. 10 years later, I felt I no longer fit into that role and couldn't ignore my desire to develop my intution on a deeper level.</p> -->
 
 					<p> Teaching yoga since 2012, I have been drawn towards the principles embodied by Ashtanga yoga. Traveling to study in Thailand with Richard Freeman opened my senses to teach focused on slower movement and more internal focus. In 2018, I became an LMT (licensed massage therapist) to further my skills in helping nourish and nurture others.
 					</p>

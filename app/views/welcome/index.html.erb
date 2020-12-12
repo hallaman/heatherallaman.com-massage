@@ -94,38 +94,30 @@
 	<div class="col-xs-12 testimonials">
 		<div class="container-fluid">
 			<div class="row">
-
 				<div class="entry col-xs-12 col-sm-6 text-right pull-right">
 
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
 					  	 <%= @testimonials.each_with_index do |testimonial, index| %>
+						  	 	<% if index == 0 %>
+					          <div class="carousel-item item active">
+					       	<% else %>
+										<div class="carousel-item item">
+					       	<% end %>
 
-					  	 	<% if index == 0 %>
-				          <div class="carousel-item item active">
-				       	<% else %>
-									<div class="carousel-item item">
-				       	<% end %>
-
-										<div class="col-xs-12">
-											<div style="float: left; padding-right: 20px;">
-												<h3>WHAT CLIENTS SAY</h3>
-												<h2 style="padding: 15px 0 0 0; text-align: center;">
-														<%= testimonial.title %>
+											<div class="col-xs-12">
+													<h3>WHAT CLIENTS SAY</h3>
+													<h2 style="padding: 15px 0 0 0; text-align: center;">
+															<%= testimonial.title %>
 													</h2>
-												<p><%= strip_tags(testimonial.body) %></p>
-											</div>
-			          		</div>
-				          </div>
-
+													<p><%= strip_tags(testimonial.body) %></p>
+				          		</div>
+										</div>
 				      	<% end %>
 						</div>
-
+						<!-- end wrapper for slides -->
 					</div>
-					<!-- end wrapper for slides -->
 
 				</div>
 			</div>
